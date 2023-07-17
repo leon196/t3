@@ -1,0 +1,99 @@
+{
+  "Id": "dab61a12-9996-401e-9aa6-328dd6292beb"/*HomeCanvas*/,
+  "Description": "Your personal Workspace.",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "f2d3dd77-66a2-4c08-ad3e-981898d0be68"/*RenderTarget*/,
+      "Position": {
+        "X": -1112.0142,
+        "Y": -4838.902
+      }
+    },
+    {
+      "ChildId": "7c74d9ca-0e22-4e50-8153-792f43a9a239"/*Glow*/,
+      "Position": {
+        "X": -921.7003,
+        "Y": -4790.3184
+      }
+    },
+    {
+      "ChildId": "f596fc25-404a-401a-abad-8be7a8eaf7b8"/*particular*/,
+      "Position": {
+        "X": -1514.3983,
+        "Y": -4557.5845
+      }
+    },
+    {
+      "ChildId": "386c6e6d-6181-43e9-b9ab-3e697c5682a2"/*PerlinNoise3*/,
+      "Position": {
+        "X": -1664.3983,
+        "Y": -4557.5845
+      }
+    },
+    {
+      "ChildId": "abf191b6-ddff-47db-a98b-525989665543"/*intro*/,
+      "Position": {
+        "X": -1468.5272,
+        "Y": -5069.994
+      }
+    },
+    {
+      "ChildId": "6fb3ecc3-60a4-4f28-8355-9d896ddab532"/*Switch*/,
+      "Position": {
+        "X": -1262.0142,
+        "Y": -4838.902
+      }
+    },
+    {
+      "ChildId": "dd966085-ece3-4b72-adc1-11f9005e322f"/*Blob*/,
+      "Position": {
+        "X": -936.5581,
+        "Y": -4688.506
+      }
+    },
+    {
+      "ChildId": "4ca1a504-4f6c-4df9-99ab-9c92e0fbffce"/*Blend*/,
+      "Position": {
+        "X": -749.4602,
+        "Y": -4782.572
+      }
+    },
+    {
+      "ChildId": "cffbd49d-9442-440c-9b06-700b1eefb405"/*TextCurve*/,
+      "Position": {
+        "X": -1474.5734,
+        "Y": -4845.774
+      }
+    },
+    {
+      "ChildId": "d918ce82-46ad-4890-976f-caa3995123e3"/*TextPlexus*/,
+      "Position": {
+        "X": -1474.5734,
+        "Y": -4888.774
+      }
+    },
+    {
+      "ChildId": "a295bdd2-1bcd-4ce2-8b96-8b4974546d2a"/*TextElectric*/,
+      "Position": {
+        "X": -1474.5734,
+        "Y": -4801.774
+      }
+    },
+    {
+      "ChildId": "92ae2cb6-1acf-4949-9a38-5a380184a46a"/*TextText*/,
+      "Position": {
+        "X": -1474.5734,
+        "Y": -4758.774
+      }
+    },
+    {
+      "ChildId": "e237ad9f-d97a-4cbb-a46f-22ce73eedd83"/*TextDot2Dot*/,
+      "Position": {
+        "X": -1474.5734,
+        "Y": -4715.774
+      }
+    }
+  ],
+  "OutputUis": []
+}

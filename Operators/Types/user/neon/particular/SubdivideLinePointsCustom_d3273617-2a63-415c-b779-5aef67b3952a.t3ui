@@ -1,0 +1,142 @@
+{
+  "Id": "d3273617-2a63-415c-b779-5aef67b3952a"/*SubdivideLinePointsCustom*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "7a948972-871b-49ad-b89e-98cd69e57e12"/*Points*/,
+      "Relevancy": "Required",
+      "Position": {
+        "X": -815.8144,
+        "Y": 557.7528
+      }
+    },
+    {
+      "InputId": "5f0bb279-ba13-46d9-8bd4-b295a162ab2c"/*Count*/,
+      "Position": {
+        "X": -817.8021,
+        "Y": 693.25977
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "3792371f-d5e5-4ccb-8019-14a2b91984d5"/*TimeConstBuffer*/,
+      "Position": {
+        "X": 296.9153,
+        "Y": 434.69223
+      }
+    },
+    {
+      "ChildId": "9b45479f-e210-4ab2-9fff-0a2fbf00fcd1"/*ComputeShader*/,
+      "Position": {
+        "X": -105.12885,
+        "Y": 431.70435
+      }
+    },
+    {
+      "ChildId": "bf5018c6-54bf-4ce6-9ae5-677e3ac1b525"/*ComputeShaderStage*/,
+      "Position": {
+        "X": 471.04163,
+        "Y": 587.7994
+      }
+    },
+    {
+      "ChildId": "a1e7f395-35bc-4823-b74b-1fe271ecfa68"/*FloatsToBuffer*/,
+      "Style": "Resizable",
+      "Size": {
+        "X": 162.00552,
+        "Y": 285.18967
+      },
+      "Position": {
+        "X": 232.65718,
+        "Y": 675.3694
+      }
+    },
+    {
+      "ChildId": "237a301b-1ffa-4fa0-ba06-c26060ead763"/*ExecuteBufferUpdate*/,
+      "Position": {
+        "X": 641.2465,
+        "Y": 646.7957
+      }
+    },
+    {
+      "ChildId": "28e58a78-061c-4d76-b243-adec8f30328f"/*CalcDispatchCount*/,
+      "Position": {
+        "X": 52.328545,
+        "Y": 501.72766
+      }
+    },
+    {
+      "ChildId": "ea49c8c6-e6de-4a4f-a71d-97a0e69c5ac2"/*StructuredBuffer2*/,
+      "Position": {
+        "X": 66.11627,
+        "Y": 1484.6584
+      }
+    },
+    {
+      "ChildId": "fc9ba9b3-0029-4a39-9e0f-559966ab0ca0"/*GetBufferComponents*/,
+      "Position": {
+        "X": -665.15936,
+        "Y": 553.86945
+      }
+    },
+    {
+      "ChildId": "b54082e1-b8be-4510-883c-d72771b880b7"/*GetBufferComponents*/,
+      "Position": {
+        "X": 208.42738,
+        "Y": 1405.3
+      }
+    },
+    {
+      "ChildId": "9fe1ddfe-2f02-4e31-9389-70f41ca8e269"/*ClampInt*/,
+      "Position": {
+        "X": -118.106026,
+        "Y": 1402.5651
+      }
+    },
+    {
+      "ChildId": "753bc68b-d203-494a-ac76-6849bcc009e5"/*ClampInt*/,
+      "Position": {
+        "X": -687.80206,
+        "Y": 693.25977
+      }
+    },
+    {
+      "ChildId": "45f77ab7-c448-4c56-a4b5-6abacb4508aa"/*MultiplyInt*/,
+      "Position": {
+        "X": -268.106,
+        "Y": 1402.5651
+      }
+    },
+    {
+      "ChildId": "97609e12-123f-4601-b9af-b0127f997645"/*GetSRVProperties*/,
+      "Position": {
+        "X": -418.106,
+        "Y": 1402.5651
+      }
+    },
+    {
+      "ChildId": "165ba8e2-6338-4f29-8d8b-7e244ed8d28c"/*AddInts*/,
+      "Position": {
+        "X": -442.3599,
+        "Y": 1472.3698
+      }
+    },
+    {
+      "ChildId": "83e9a1b4-574c-4f16-86cc-73d43594affb"/*IntToFloat*/,
+      "Position": {
+        "X": -317.38705,
+        "Y": 719.155
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "43181d66-d697-4dee-9a3d-7d37623789c1"/*Output*/,
+      "Position": {
+        "X": 771.2465,
+        "Y": 646.7957
+      }
+    }
+  ]
+}

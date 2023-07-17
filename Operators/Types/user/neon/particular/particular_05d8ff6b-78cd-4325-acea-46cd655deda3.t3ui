@@ -1,0 +1,201 @@
+{
+  "Id": "05d8ff6b-78cd-4325-acea-46cd655deda3"/*particular*/,
+  "Description": "pc demo evoke 2023",
+  "InputUis": [
+    {
+      "InputId": "dd99a6b0-12c5-4418-a0ae-ad6bb3fbb8ce"/*Position*/,
+      "Position": {
+        "X": -547.75336,
+        "Y": 540.2987
+      }
+    },
+    {
+      "InputId": "014aa7ec-d0f0-4949-9920-ecf3ae965c2f"/*Amount*/,
+      "Position": {
+        "X": -547.75336,
+        "Y": 585.2987
+      }
+    },
+    {
+      "InputId": "fb182a26-fc8a-406d-9db1-ac368c6d5f80"/*Points*/,
+      "Relevancy": "Required",
+      "Position": {
+        "X": -623.7695,
+        "Y": 816.04364
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "a992cc8e-3efd-4863-b062-4710adc5e5ba"/*ComputeShader*/,
+      "Position": {
+        "X": 5.2371216,
+        "Y": 356.4458
+      }
+    },
+    {
+      "ChildId": "d19dc292-f3fb-4636-82ff-a8ba76a5dfb0"/*ComputeShaderStage*/,
+      "Position": {
+        "X": 395.8524,
+        "Y": 501.43842
+      }
+    },
+    {
+      "ChildId": "21e99e2c-531a-45ca-bcec-06bec52805d7"/*FloatsToBuffer*/,
+      "Position": {
+        "X": -229.5161,
+        "Y": 532.2649
+      }
+    },
+    {
+      "ChildId": "68e829ae-b2c5-4ec3-9b3c-a3a04dc157e2"/*GetSRVProperties*/,
+      "Position": {
+        "X": -299.86755,
+        "Y": 763.95416
+      }
+    },
+    {
+      "ChildId": "cd619ce9-518f-4ab0-995d-7ccc44d5903f"/*ExecuteBufferUpdate*/,
+      "Position": {
+        "X": 605.88324,
+        "Y": 893.9409
+      }
+    },
+    {
+      "ChildId": "d699b2a8-9275-44ad-8f6e-9a5563786c5a"/*CalcDispatchCount*/,
+      "Position": {
+        "X": 214.33832,
+        "Y": 503.18958
+      }
+    },
+    {
+      "ChildId": "cd5eeb3c-365b-449c-96ba-e7f7e1f83f5c"/*Vector3ToFloat3*/,
+      "Position": {
+        "X": -397.75333,
+        "Y": 540.2987
+      }
+    },
+    {
+      "ChildId": "54376fbd-bba1-42eb-8476-873e68baa2dc"/*StructuredBuffer2*/,
+      "Position": {
+        "X": -79.294556,
+        "Y": 922.47754
+      }
+    },
+    {
+      "ChildId": "42faa18e-326e-49c7-8b69-56f2df8f2865"/*GetBufferComponents*/,
+      "Position": {
+        "X": -446.97894,
+        "Y": 808.3369
+      }
+    },
+    {
+      "ChildId": "859edfe8-8216-47ee-a5f7-aadd99a0413b"/*GetBufferComponents*/,
+      "Position": {
+        "X": 186.48685,
+        "Y": 884.0222
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "942bae7f-945c-4a59-8cdd-01ed935b24f3"/*Output*/,
+      "Position": {
+        "X": 735.8831,
+        "Y": 893.9409
+      }
+    }
+  ],
+  "Annotations": [
+    {
+      "Id": "9c9dbe4d-9031-4afc-b016-de41fafdd092",
+      "Title": "Convert input parameters to into a buffer \nfor the shader.",
+      "Color": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6,
+        "W": 1.0
+      },
+      "Position": {
+        "X": -604.4504,
+        "Y": 441.43842
+      },
+      "Size": {
+        "X": 549.33813,
+        "Y": 230.01929
+      }
+    },
+    {
+      "Id": "0b2c2e45-b1ab-4d2a-b59d-5a61aaf828cd",
+      "Title": "Get the number of input points...",
+      "Color": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6,
+        "W": 1.0
+      },
+      "Position": {
+        "X": -461.93475,
+        "Y": 721.60016
+      },
+      "Size": {
+        "X": 301.14517,
+        "Y": 150.28906
+      }
+    },
+    {
+      "Id": "97f3b32c-dc22-424a-bc99-b0f1a6a446a0",
+      "Title": "Setup a new structured buffer with the \nrequired dimenstion (stride) and length.",
+      "Color": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6,
+        "W": 1.0
+      },
+      "Position": {
+        "X": -94.338684,
+        "Y": 824.0222
+      },
+      "Size": {
+        "X": 450.82553,
+        "Y": 196.29028
+      }
+    },
+    {
+      "Id": "7bb5590c-3da4-495c-b99f-7b8bfa64d5c1",
+      "Title": "Setup the compute shader and calculate\nthe number of dispatches ThreadGroups\nand buffer length.",
+      "Color": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6,
+        "W": 1.0
+      },
+      "Position": {
+        "X": -40.20819,
+        "Y": 441.43842
+      },
+      "Size": {
+        "X": 604.9596,
+        "Y": 229.38458
+      }
+    },
+    {
+      "Id": "25fae4e9-c123-4e7f-8255-423a8befb3ec",
+      "Title": "This is the shader you want to edit.\nSelect it, then click [Edit] in \nParameter Window...",
+      "Color": {
+        "X": 0.6,
+        "Y": 0.6,
+        "Z": 0.6,
+        "W": 1.0
+      },
+      "Position": {
+        "X": -40.266907,
+        "Y": 264.7015
+      },
+      "Size": {
+        "X": 299.4341,
+        "Y": 162.31216
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Id": "f093543d-36fb-48fc-89c4-f258ad6a12b4"/*intro*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "32fc2190-5799-495f-b186-353f93fc04f3"/*Switch*/,
+      "Position": {
+        "X": 1553.0614,
+        "Y": 1201.1675
+      }
+    },
+    {
+      "ChildId": "34cc82d9-21e4-4fa9-a035-b7a5d7d169c2"/*AColor*/,
+      "Position": {
+        "X": 1253.0614,
+        "Y": 1201.1675
+      }
+    },
+    {
+      "ChildId": "5587964b-6428-424f-9e30-c489758b574d"/*TextCurve*/,
+      "Position": {
+        "X": 1403.0614,
+        "Y": 1257.1675
+      }
+    },
+    {
+      "ChildId": "9b119610-3520-4c24-812f-ad23ce5b0f2a"/*TextPlexus*/,
+      "Position": {
+        "X": 1403.0614,
+        "Y": 1201.1675
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "f8602067-ac57-487c-905d-f4b39d8f7b58"/*Output*/,
+      "Position": {
+        "X": 1703.0614,
+        "Y": 1201.1675
+      }
+    }
+  ]
+}

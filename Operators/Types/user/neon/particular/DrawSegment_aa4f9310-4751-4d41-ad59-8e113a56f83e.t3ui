@@ -1,0 +1,104 @@
+{
+  "Id": "aa4f9310-4751-4d41-ad59-8e113a56f83e"/*DrawSegment*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "39db4b7c-51ed-43ab-9579-e1681a3cf3ba"/*Points*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
+    },
+    {
+      "InputId": "fdae9128-831b-41a0-af71-5057b2ab4b4a"/*Color*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 135.0
+      },
+      "Min": 0.0,
+      "Max": 1.0,
+      "Clamp": true
+    },
+    {
+      "InputId": "a8ec24ef-b07a-42ec-97fd-1ab14a013a06"/*RandomAmount*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 225.0
+      }
+    },
+    {
+      "InputId": "4489d9c9-abad-4520-b6be-eb8167adbc25"/*Branch*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 270.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "f84bbd4c-f672-4bff-b9e2-28549939af8e"/*DrawLines*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "00faffa1-bb7d-46b1-af0d-e057ed947cdd"/*Execute*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "dc2e974e-1d22-429d-a3ab-5ffa4dcae431"/*RandomizePoints*/,
+      "Position": {
+        "X": -56.715454,
+        "Y": 228.72894
+      }
+    },
+    {
+      "ChildId": "eee4756b-57a9-4b9b-af8c-03cc5f37fdf4"/*DrawPoints*/,
+      "Position": {
+        "X": 141.89777,
+        "Y": 88.09802
+      }
+    },
+    {
+      "ChildId": "6f9ff1d4-f6fa-47fb-97bd-7a571fc96a82"/*PairPointsForLines*/,
+      "Position": {
+        "X": 123.85843,
+        "Y": 258.82693
+      }
+    },
+    {
+      "ChildId": "61acf450-4cf7-4d19-a67d-0866f6c9b5a9"/*DrawLines*/,
+      "Position": {
+        "X": 306.15768,
+        "Y": 221.78833
+      }
+    },
+    {
+      "ChildId": "cc6aa156-48f1-4392-b1d7-fc9aff8a5486"/*Execute*/,
+      "Position": {
+        "X": 541.1207,
+        "Y": 98.520325
+      }
+    },
+    {
+      "ChildId": "4b0b823d-6d6a-40dd-93c1-7c13fa64d371"/*Execute*/,
+      "Position": {
+        "X": 499.4523,
+        "Y": 254.77686
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "897b8861-3457-4640-a6eb-9fd585363a2c"/*Output*/,
+      "Position": {
+        "X": 710.0,
+        "Y": 59.0
+      }
+    }
+  ]
+}
