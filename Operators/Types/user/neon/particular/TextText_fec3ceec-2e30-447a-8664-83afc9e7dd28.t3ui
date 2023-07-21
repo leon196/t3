@@ -11,6 +11,21 @@
       "Min": 0.0,
       "Max": 1.0,
       "Clamp": true
+    },
+    {
+      "InputId": "3c8a0cd0-ef02-472a-9f2c-798bcd0656c6"/*Message*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      },
+      "Usage": "Default"
+    },
+    {
+      "InputId": "ca7dfe2e-baa9-440b-af86-4bbd11a72f74"/*Animation*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
     }
   ],
   "SymbolChildUis": [

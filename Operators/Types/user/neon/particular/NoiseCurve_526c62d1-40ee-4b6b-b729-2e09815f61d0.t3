@@ -22,7 +22,7 @@
         {
           "Id": "2d9c040d-5244-40ac-8090-d8d57323487b"/*SpeedFactor*/,
           "Type": "System.Single",
-          "Value": 0.1
+          "Value": 0.02
         }
       ],
       "Outputs": []
@@ -73,7 +73,7 @@
         {
           "Id": "7773837e-104a-4b3d-a41f-cadbd9249af2"/*Float*/,
           "Type": "System.Single",
-          "Value": 6.3999996
+          "Value": 12.0
         }
       ],
       "Outputs": []

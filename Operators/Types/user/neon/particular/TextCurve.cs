@@ -18,6 +18,9 @@ namespace T3.Operators.Types.Id_656fb482_cdf7_42b8_b056_151b0720e674
         [Input(Guid = "ad28a624-8696-4695-b7b8-0d320bcc6eeb")]
         public readonly InputSlot<string> Message = new InputSlot<string>();
 
+        [Input(Guid = "f2a9d239-e31e-4607-95fc-dca8dcda2931")]
+        public readonly InputSlot<float> Animation = new InputSlot<float>();
+
     }
 }
 

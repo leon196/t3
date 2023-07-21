@@ -84,7 +84,12 @@
         {
           "Id": "ad28a624-8696-4695-b7b8-0d320bcc6eeb"/*Message*/,
           "Type": "System.String",
-          "Value": "Once in a while, you wonder"
+          "Value": "particular"
+        },
+        {
+          "Id": "f2a9d239-e31e-4607-95fc-dca8dcda2931"/*Animation*/,
+          "Type": "System.Single",
+          "Value": 0.0
         }
       ],
       "Outputs": []
@@ -295,12 +300,6 @@
           "Value": 0
         }
       ],
-      "Outputs": []
-    },
-    {
-      "Id": "599f25e1-1a51-4784-86ce-008f85686747"/*RgbaToColor*/,
-      "SymbolId": "82a5f040-926b-4970-9da2-aa36de94b436",
-      "InputValues": [],
       "Outputs": []
     },
     {
@@ -737,6 +736,36 @@
             "OutEditMode": "Smooth",
             "InTangentAngle": 0.0,
             "OutTangentAngle": -3.141592653589793
+          }
+        ]
+      }
+    },
+    {
+      "InstanceId": "abe3ff60-8121-441e-9e21-15601c64a2c8",
+      "InputId": "f2a9d239-e31e-4607-95fc-dca8dcda2931",
+      "Curve": {
+        "PreCurve": "Constant",
+        "PostCurve": "Constant",
+        "Keys": [
+          {
+            "Time": 8.8333,
+            "Value": 0.0,
+            "InType": "Spline",
+            "OutType": "Spline",
+            "InEditMode": "Smooth",
+            "OutEditMode": "Smooth",
+            "InTangentAngle": 0.0,
+            "OutTangentAngle": 3.141592653589793
+          },
+          {
+            "Time": 16.0,
+            "Value": 1.0,
+            "InType": "Spline",
+            "OutType": "Spline",
+            "InEditMode": "Linear",
+            "OutEditMode": "Linear",
+            "InTangentAngle": 0.13863910053228778,
+            "OutTangentAngle": -3.0029535530575053
           }
         ]
       }
