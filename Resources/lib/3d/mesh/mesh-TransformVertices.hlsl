@@ -30,7 +30,7 @@ void main(uint3 i : SV_DispatchThreadID)
     ResultVerts[i.x].Normal = lerp(normal,normalize(mul(float4(normal,0), TransformMatrix).xyz), s);
 
     float3 tangent =SourceVerts[i.x].Tangent;
-    ResultVerts[i.x].Tangent = lerp(normal,normalize(mul(float4(tangent,0), TransformMatrix).xyz), s);
+    ResultVerts[i.x].Tangent = lerp(tangent,normalize(mul(float4(tangent,0), TransformMatrix).xyz), s);
 
     float3 bitangent = SourceVerts[i.x].Bitangent;
     ResultVerts[i.x].Bitangent = lerp(bitangent, normalize(mul(float4(bitangent,0), TransformMatrix).xyz), s);
