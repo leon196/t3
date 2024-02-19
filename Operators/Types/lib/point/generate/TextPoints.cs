@@ -65,17 +65,21 @@ namespace T3.Operators.Types.Id_bdb41a6d_e225_4a8a_8348_820d45153e3f
                 return;
             }
 
-            // PrivateFontCollection collection = new PrivateFontCollection();
+            // FontCollection collection = new();
             // collection.AddFontFile(inputFont);
 
 
             // FontFamily fontFamily = new FontFamily(@"D:\Projects\T3\t3\Resources\fonts\TeknoTwo.ttf");
             // FontFamily family = collection.Families[0];
+            // System.Drawing.FontFamily
+            // Font font = collection.Add(inputFont).CreateFont(12);
 
-            FontFamily family = FontFamily.ResolveFontFamily(FontFamily.StandardFontFamilies.Helvetica);
+            FileStream stream = File.Open(inputFont, FileMode.Open);
+
+            FontFamily family = new FontFamily(stream);
             // FontFamily family = FontFamily
             Font font = new Font(family, 15);
-            GraphicsPath path = new GraphicsPath().AddText(15, 8, "VectSharp", font);
+            GraphicsPath path = new GraphicsPath().AddText(15, 8, "TEXT", font);
             GraphicsPath[] triangles = path.Triangulate(2, true).ToArray();
             
             int totalVertexCount = triangles.Length * 3;
