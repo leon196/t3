@@ -1,0 +1,65 @@
+{
+  "Id": "f2054bb2-44d5-4fe7-ba48-33b45fc5e749"/*figure*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "054b0516-869e-4d24-a457-3ae50cf55031"/*LoadGltfScene*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "1c0922ce-994d-4f8a-b333-dea3e3c843c0"/*Camera*/,
+      "Position": {
+        "X": 450.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "70fe54b7-63a6-4c00-ac4e-0842fd17a2ea"/*DrawMeshMatcap*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "d0ca4d81-a2f6-4199-ac9b-c45e9788b5e0"/*SetMaterial*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "5fa736f7-7f41-4612-80f7-da18e0385d4a"/*LoadImage*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 173.0
+      }
+    },
+    {
+      "ChildId": "c71420bc-b172-47df-b5f4-ecd2c322e430"/*RenderTarget*/,
+      "Position": {
+        "X": 600.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "521842fb-ff98-40f5-9ee8-df87c80fbf63"/*Layer2d*/,
+      "Position": {
+        "X": 750.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "a5c8e352-0d00-4df5-965b-f235e780a04d"/*Output*/,
+      "Position": {
+        "X": 1160.0,
+        "Y": 98.0
+      }
+    }
+  ]
+}

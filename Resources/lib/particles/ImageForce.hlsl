@@ -91,7 +91,7 @@ void main(uint3 i : SV_DispatchThreadID)
 
     float accelerationToDepthCenter = depth - CenterDepth;
     offset.z += accelerationToDepthCenter * DepthConcentration;
-    offset = mul(float4(offset.xyz, 0), CameraToWorld * WorldToObject);
+    offset = mul(float4(offset.xyz, 0), CameraToWorld);
 
     float3 v = Particles[i.x].Velocity + offset;
 

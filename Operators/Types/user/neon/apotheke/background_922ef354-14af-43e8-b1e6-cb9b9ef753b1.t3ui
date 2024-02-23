@@ -1,0 +1,30 @@
+{
+  "Id": "922ef354-14af-43e8-b1e6-cb9b9ef753b1"/*background*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "1a37fafb-7911-42d5-bd17-5fddcf230bf7"/*LinearGradient*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "7fd73f2e-4a28-4e1a-b1d9-d3302c5d62fa"/*Layer2d*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "d5e0f01b-0f0d-4033-98cb-5b00602745f5"/*Output*/,
+      "Position": {
+        "X": 560.0,
+        "Y": 18.0
+      }
+    }
+  ]
+}
