@@ -3,25 +3,15 @@ using T3.Core.Operator.Attributes;
 using T3.Core.Operator.Slots;
 using T3.Core.DataTypes;
 using T3.Core.Logging;
-using T3.Core.Resource;
-using T3.Core.DataTypes.Vector;
-using T3.Core.Rendering;
+using PointT3 = T3.Core.DataTypes.Point;
 
-using System;
 using System.IO;
 using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Drawing.Text;
-using SharpDX.Direct3D11;
-using Buffer = SharpDX.Direct3D11.Buffer;
 
-// using SixLabors.Fonts;
-// using SixLabors.ImageSharp;
-// using SixLabors.ImageSharp.Drawing.Text;
-// using SixLabors.ImageSharp.Drawing;
-
-using VectSharp;
+using SixLabors.Fonts;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Drawing;
 
 namespace T3.Operators.Types.Id_bdb41a6d_e225_4a8a_8348_820d45153e3f
 {
@@ -34,19 +24,34 @@ namespace T3.Operators.Types.Id_bdb41a6d_e225_4a8a_8348_820d45153e3f
         [Input(Guid = "abe3f777-a33b-4e39-9eee-07cc729acf32")]
         public readonly InputSlot<string> InputFont = new InputSlot<string>();
 
-        private Buffer _vertexBuffer;
-        private PbrVertex[] _vertexBufferData = new PbrVertex[0];
-        private readonly BufferWithViews _vertexBufferWithViews = new();
+        [Input(Guid = "12467649-9036-4b47-9868-2b4436580227")]
+        public readonly InputSlot<float> Size = new InputSlot<float>();
 
-        private Buffer _indexBuffer;
-        private Int3[] _indexBufferData = new Int3[0];
-        private readonly BufferWithViews _indexBufferWithViews = new();
+        [Input(Guid = "711edaf8-3fd1-4453-966d-78ed777df934")]
+        public readonly InputSlot<float> Resolution = new InputSlot<float>();
 
-        private readonly MeshBuffers _data = new();
+        [Input(Guid = "6b378d1a-afc1-4006-ac50-b5b80dc55535")]
+        public readonly InputSlot<float> LineHeight = new InputSlot<float>();
+
+        [Input(Guid = "e2cff4bc-6c40-40f1-95a1-9e48d0c8624f", MappedType = typeof(TextAligns))]
+        public readonly InputSlot<int> TextAlign = new InputSlot<int>();
+
+        [Input(Guid = "02163610-108e-4154-a3b2-84b65df852fa", MappedType =  typeof(VerticalAlignment))]
+        public readonly InputSlot<int> VerticalAlign = new InputSlot<int>();
+
+        [Input(Guid = "128bd413-10ab-4c2c-9c49-3de925c26f02", MappedType =  typeof(HorizontalAlignment))]
+        public readonly InputSlot<int> HorizontalAlign = new InputSlot<int>();
+
+        public enum TextAligns
+        {
+            Left,
+            Right,
+            Center,
+        }
 
         public TextPoints()
         {
-            OutputMesh.UpdateAction = Update;
+            OutputList.UpdateAction = Update;
         }
 
         private void Update(EvaluationContext context)
@@ -54,126 +59,81 @@ namespace T3.Operators.Types.Id_bdb41a6d_e225_4a8a_8348_820d45153e3f
             string inputText = InputText.GetValue(context);
             string inputFont = InputFont.GetValue(context);
 
+            // check if text and font are not empty
             if (string.IsNullOrEmpty(inputText) || string.IsNullOrEmpty(inputFont))
             {
                 return;
             }
 
+            // check if font file exist
             if (!File.Exists(inputFont))
             {
                 Log.Debug($"File {inputFont} doesn't exist", this);
                 return;
             }
 
-            // FontCollection collection = new();
-            // collection.AddFontFile(inputFont);
+            // fetch parameters
+            float size = Size.GetValue(context);
+            float resolution = Resolution.GetValue(context);
+            float lineSpace = LineHeight.GetValue(context);
+            TextAlignment textAlign = (TextAlignment)TextAlign.GetValue(context);
+            VerticalAlignment vertical = (VerticalAlignment)VerticalAlign.GetValue(context);
+            HorizontalAlignment horizontal = (HorizontalAlignment)HorizontalAlign.GetValue(context);
 
-
-            // FontFamily fontFamily = new FontFamily(@"D:\Projects\T3\t3\Resources\fonts\TeknoTwo.ttf");
-            // FontFamily family = collection.Families[0];
-            // System.Drawing.FontFamily
-            // Font font = collection.Add(inputFont).CreateFont(12);
-
-            FileStream stream = File.Open(inputFont, FileMode.Open);
-
-            FontFamily family = new FontFamily(stream);
-            // FontFamily family = FontFamily
-            Font font = new Font(family, 15);
-            GraphicsPath path = new GraphicsPath().AddText(15, 8, "TEXT", font);
-            GraphicsPath[] triangles = path.Triangulate(2, true).ToArray();
-            
-            int totalVertexCount = triangles.Length * 3;
-            int totalTriangleCount = triangles.Length;
-
-            // Create buffers
-            if (_vertexBufferData.Length != totalVertexCount)
-                _vertexBufferData = new PbrVertex[totalVertexCount];
-
-            if (_indexBufferData.Length != totalTriangleCount)
-                _indexBufferData = new Int3[totalTriangleCount];
-
-            for (int i = 0; i < triangles.Length; i++)
+            // create font
+            FontCollection collection = new();
+            FontFamily family = collection.Add(inputFont);
+            Font font = family.CreateFont(resolution);
+            TextOptions textOptions = new(font)
             {
-                List<Segment> segments = triangles[i].Segments;
-                _indexBufferData[i] = new Int3(i*3, i*3+1, i*3+2);
-                for (int t = 0; t < 3; t++)
+                TextAlignment = textAlign,
+                VerticalAlignment = vertical,
+                HorizontalAlignment = horizontal,
+                LineSpacing = lineSpace,
+            };
+
+            // generate points wiht text from font
+            IPathCollection paths = TextBuilder.GenerateGlyphs(inputText, textOptions);
+            List<PointT3> points = new List<PointT3>();
+            foreach (var path in paths)
+            {
+                var p = path.Flatten();
+                foreach (var q in p)
                 {
-                    var pf = segments[t].Point;
-                    Vector3 p = new Vector3((float)pf.X, (float)pf.Y, 0f);
-                    _vertexBufferData[i*3+t] = new PbrVertex
+                    // fill list with points from glyph (and close the path)
+                    int count = q.Points.Length;
+                    for (int i = 0; i < count+1; ++i)
                     {
-                        Position = p,
-                        Normal = Vector3.UnitZ,
-                        Tangent = Vector3.UnitX,
-                        Bitangent = Vector3.UnitY,
-                        Texcoord = Vector2.Zero,
-                        Selection = 1
-                    };
+                        points.Add(GetPoint(q.Points.Span[i%count], size/resolution));
+                    }
+
+                    // add line separator
+                    points.Add(PointT3.Separator());
                 }
             }
 
-            // Write Data
-            ResourceManager.SetupStructuredBuffer(_vertexBufferData, PbrVertex.Stride * totalVertexCount, PbrVertex.Stride, ref _vertexBuffer);
-            ResourceManager.CreateStructuredBufferSrv(_vertexBuffer, ref _vertexBufferWithViews.Srv);
-            ResourceManager.CreateStructuredBufferUav(_vertexBuffer, UnorderedAccessViewBufferFlags.None, ref _vertexBufferWithViews.Uav);
-            _vertexBufferWithViews.Buffer = _vertexBuffer;
+            // no points
+            if (points.Count == 0) return;
 
-            const int stride = 3 * 4;
-            ResourceManager.SetupStructuredBuffer(_indexBufferData, stride * totalTriangleCount, stride, ref _indexBuffer);
-            ResourceManager.CreateStructuredBufferSrv(_indexBuffer, ref _indexBufferWithViews.Srv);
-            ResourceManager.CreateStructuredBufferUav(_indexBuffer, UnorderedAccessViewBufferFlags.None, ref _indexBufferWithViews.Uav);
-            _indexBufferWithViews.Buffer = _indexBuffer;
+            // output list
+            StructuredList<PointT3> list = new StructuredList<PointT3>(points.Count);
+            for (int index = 0; index < points.Count; index++) list.TypedElements[index] = points[index];
+            OutputList.Value = list;
+        }
 
-            _data.VertexBuffer = _vertexBufferWithViews;
-            _data.IndicesBuffer = _indexBufferWithViews;
-            OutputMesh.Value = _data;
-            OutputMesh.DirtyFlag.Clear();
-
-            // FontCollection collection = new();
-            // FontFamily family = collection.Add(inputFont);
-            // Font font = family.CreateFont(12);
-            // TextOptions textOptions = new(font);
-            // IPathCollection paths = TextBuilder.GenerateGlyphs(inputText, textOptions);
-            // List<Point> points = new List<Point>();
-            // ComplexPolygon poly = new ComplexPolygon(paths);
-            // foreach (var path in paths)
-            // {
-            //     // path.
-            //     var p = path.Flatten();
-            //     foreach (var q in p)
-            //     {
-            //         for (int i = 0; i < q.Points.Length; ++i)
-            //         {
-
-            //             PointF pp = q.Points.Span[i];
-            //             Point ppp = new Point();
-
-            //             Vector3 pos = new Vector3(pp.X , 1 - pp.Y, 0f);
-            //             ppp.Position = pos;
-            //             ppp.W = 1f;
-            //             ppp.Orientation = new Quaternion(0f, 0f, 0f, 1f);
-            //             ppp.Color = new Vector4(1f, 1f, 1f, 1f);
-
-            //             points.Add(ppp);
-            //         }
-            //     }
-            // }
-
-            // if (points.Count == 0) return;
-
-            // StructuredList<Point> list = new StructuredList<Point>(points.Count);
-            // for (int index = 0; index < points.Count; index++)
-            // {
-            //     list.TypedElements[index] = points[index];
-            // }
-            // OutputList.Value = list;
+        PointT3 GetPoint (PointF p, float size)
+        {
+            return new PointT3
+            {
+                Position = new Vector3(p.X * size, -p.Y * size, 0f),
+                W = 1f,
+                Orientation = new Quaternion(0f, 0f, 0f, 1f),
+                Color = new Vector4(1f, 1f, 1f, 1f)
+            };
         }
 
         [Output(Guid = "c65da6e8-3eb7-4152-9b79-34fcaaa31807")]
         public readonly Slot<StructuredList> OutputList = new Slot<StructuredList>();
-
-        [Output(Guid = "ec159313-220f-45ef-9694-d0c7bbf24194")]
-        public readonly Slot<MeshBuffers> OutputMesh = new Slot<MeshBuffers>();
     }
 }
 
