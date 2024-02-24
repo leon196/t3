@@ -1,0 +1,101 @@
+{
+  "Id": "63ea7f13-7e53-426e-9e66-7f6afb60f1a1"/*Plexus*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "13c612e4-9144-4b8a-b621-225166b725b3"/*GTargets*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -294.44147
+      }
+    },
+    {
+      "InputId": "5a23d396-f0a0-4a06-8ae9-e583bb485134"/*GTargets2*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -249.44147
+      }
+    },
+    {
+      "InputId": "2949d742-11aa-4c95-b2f5-1e29cb62305c"/*Threshold*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -204.44147
+      }
+    },
+    {
+      "InputId": "65c54825-1222-4954-8766-e4c7815f6fd2"/*Count*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -159.44147
+      }
+    },
+    {
+      "InputId": "32cacd68-1e01-4acf-8028-5d6d374e1ad9"/*Seed*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -114.44147
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "96f1a0da-7996-44e5-b8e2-2b66c1e666b8"/*PairPointsForLines*/,
+      "Position": {
+        "X": 688.182,
+        "Y": 52.00403
+      }
+    },
+    {
+      "ChildId": "47540644-1b46-4225-8b17-d43366c680d5"/*FilterPoints*/,
+      "Position": {
+        "X": 538.182,
+        "Y": 218.00403
+      }
+    },
+    {
+      "ChildId": "47bac941-3df7-43be-88ba-fdb5de159262"/*AnalyzeBuffers*/,
+      "Position": {
+        "X": 388.182,
+        "Y": 218.00403
+      }
+    },
+    {
+      "ChildId": "dfea8580-07c7-458e-a260-4bf27574aa70"/*CustomPointShader*/,
+      "Position": {
+        "X": 838.182,
+        "Y": 52.00403
+      }
+    },
+    {
+      "ChildId": "82f4cc3c-1c55-49f0-9456-5c03bfaf53b5"/*RepeatAtGPoints*/,
+      "Position": {
+        "X": 203.67603,
+        "Y": 69.0
+      }
+    },
+    {
+      "ChildId": "9cfa1f5a-8cb4-42c6-803b-5951fed20ac2"/*RadialPoints*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 55.702026
+      }
+    },
+    {
+      "ChildId": "9c741864-8f6c-4172-a1f1-45840849c526"/*RepeatAtGPoints*/,
+      "Position": {
+        "X": 203.67603,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "cdfc48d3-dcf9-45cf-97f4-e90adcf49df1"/*Output*/,
+      "Position": {
+        "X": 1248.182,
+        "Y": 140.00201
+      }
+    }
+  ]
+}

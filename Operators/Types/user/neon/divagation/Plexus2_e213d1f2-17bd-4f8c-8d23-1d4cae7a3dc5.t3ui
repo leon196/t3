@@ -1,0 +1,108 @@
+{
+  "Id": "e213d1f2-17bd-4f8c-8d23-1d4cae7a3dc5"/*Plexus2*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "e3849b7c-c48a-4a2b-a67b-0fe03b95de3c"/*GTargets*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -294.44147
+      }
+    },
+    {
+      "InputId": "21cd2942-c2db-4fd2-bdaf-1dafc9cde54d"/*GTargets2*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -249.44147
+      }
+    },
+    {
+      "InputId": "a9135321-f93f-4dc2-9947-6e13c77e20b2"/*Threshold*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -204.44147
+      }
+    },
+    {
+      "InputId": "0e77e085-ccf4-42b8-88f9-04851b8c2545"/*Count*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -159.44147
+      }
+    },
+    {
+      "InputId": "569e4a01-f72c-420f-8564-81134215ff25"/*Seed*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -114.44147
+      }
+    },
+    {
+      "InputId": "1a47b2a7-18b7-40f7-9dcd-928ace32dabc"/*ScatterSelect*/,
+      "Position": {
+        "X": -311.56567,
+        "Y": -69.44147
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "c03bb5ec-c69d-4d45-8d22-d82dfd47edc6"/*PairPointsForLines*/,
+      "Position": {
+        "X": 688.182,
+        "Y": 52.00403
+      }
+    },
+    {
+      "ChildId": "4fa682f5-dbf6-4ed8-9c14-02564806361c"/*FilterPoints*/,
+      "Position": {
+        "X": 538.182,
+        "Y": 218.00403
+      }
+    },
+    {
+      "ChildId": "b1286f9a-60e8-4bef-b11b-6fa865334592"/*AnalyzeBuffers*/,
+      "Position": {
+        "X": 388.182,
+        "Y": 218.00403
+      }
+    },
+    {
+      "ChildId": "b3978ba6-6977-4fea-989c-f19445c8e4e2"/*CustomPointShader*/,
+      "Position": {
+        "X": 838.182,
+        "Y": 52.00403
+      }
+    },
+    {
+      "ChildId": "769a8524-847b-4ab7-afcf-de51b066f2ab"/*RepeatAtGPoints*/,
+      "Position": {
+        "X": 203.67603,
+        "Y": 69.0
+      }
+    },
+    {
+      "ChildId": "9b1857f3-bfa8-4556-843e-371e67f4fabc"/*RadialPoints*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 55.702026
+      }
+    },
+    {
+      "ChildId": "6340100d-b4e1-48df-a34b-15d0ae55ea2f"/*RepeatAtGPoints*/,
+      "Position": {
+        "X": 203.67603,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "f23927ba-bd8e-4b0c-a9cf-26c1478a0513"/*Output*/,
+      "Position": {
+        "X": 1248.182,
+        "Y": 140.00201
+      }
+    }
+  ]
+}
