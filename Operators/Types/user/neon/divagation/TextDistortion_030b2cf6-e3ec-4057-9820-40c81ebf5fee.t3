@@ -16,7 +16,7 @@
         {
           "Id": "7432f063-9957-47f7-8250-c3e6456ec7c6"/*InputText*/,
           "Type": "System.String",
-          "Value": "DIVAGATION\nDIVAGATION"
+          "Value": "COLOR"
         },
         {
           "Id": "abe3f777-a33b-4e39-9eee-07cc729acf32"/*InputFont*/,
@@ -26,7 +26,7 @@
         {
           "Id": "12467649-9036-4b47-9868-2b4436580227"/*Size*/,
           "Type": "System.Single",
-          "Value": 0.4
+          "Value": 0.66
         },
         {
           "Id": "02163610-108e-4154-a3b2-84b65df852fa"/*VerticalAlign*/,
@@ -58,6 +58,15 @@
       "Id": "941b5e21-8d12-4f3e-b75f-7d7311b951d5"/*AddNoise*/,
       "SymbolId": "dd586355-64b3-4e96-af6d-b4927595dee7",
       "InputValues": [
+        {
+          "Id": "c2df1fa3-88e1-4be2-954e-8c44edd9d421"/*AmountDistribution*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 4.0
+          }
+        },
         {
           "Id": "6c2ab161-da81-47c2-8008-222cf994179c"/*UseWAsWeight*/,
           "Type": "System.Single",
@@ -100,7 +109,7 @@
         {
           "Id": "7773837e-104a-4b3d-a41f-cadbd9249af2"/*Float*/,
           "Type": "System.Single",
-          "Value": 0.23
+          "Value": 0.21
         }
       ],
       "Outputs": []
@@ -113,7 +122,7 @@
         {
           "Id": "7773837e-104a-4b3d-a41f-cadbd9249af2"/*Float*/,
           "Type": "System.Single",
-          "Value": 3.6
+          "Value": 3.71
         }
       ],
       "Outputs": []
@@ -125,7 +134,7 @@
         {
           "Id": "b7434932-aeea-407e-bb00-22337a21f293"/*Frequency*/,
           "Type": "System.Single",
-          "Value": 2.0
+          "Value": 1.0
         },
         {
           "Id": "c6286f1c-00a3-40af-94dd-66375ed0343f"/*Octaves*/,
@@ -146,14 +155,6 @@
           "Id": "557ae817-ec36-4866-8fed-64490e9255be"/*RangeMax*/,
           "Type": "System.Single",
           "Value": 3.0
-        },
-        {
-          "Id": "296d0f7f-d484-4781-b01f-48839def0324"/*BiasAndGain*/,
-          "Type": "System.Numerics.Vector2",
-          "Value": {
-            "X": 0.59,
-            "Y": 0.5
-          }
         },
         {
           "Id": "bd43ee20-1ff1-4c49-ac87-87ca4a1fe66f"/*Seed*/,
@@ -187,7 +188,7 @@
         {
           "Id": "e5a7649f-684e-4938-8ae3-7289f5b9ff45"/*B*/,
           "Type": "System.Single",
-          "Value": 0.33
+          "Value": 0.1
         }
       ],
       "Outputs": []
@@ -242,6 +243,24 @@
           "Value": 40.0
         }
       ],
+      "Outputs": []
+    },
+    {
+      "Id": "14268912-dfdb-4ab6-8e8d-2c71a7f4c8d4"/*ResampleLinePoints*/,
+      "SymbolId": "13ff9adb-2634-4129-8bb4-4fb764d38be6",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "e8566210-977c-44be-a69a-95461335b38f"/*SubdivideLinePoints*/,
+      "SymbolId": "c7f100bf-05a0-44af-9cf4-c5a1b5937e33",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "33828199-3fbf-41b7-853e-b52cd6158ae7"/*ResampleLinePoints2*/,
+      "SymbolId": "9fa11d52-7bac-4552-bd0c-548c13f7cbd4",
+      "InputValues": [],
       "Outputs": []
     }
   ],
