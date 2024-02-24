@@ -1,0 +1,17 @@
+{
+  "Name": "ResamplePoints",
+  "Id": "0b300208-38a4-4cdb-800a-0da6c22e58d8",
+  "Namespace": "lib.point.modify",
+  "Inputs": [
+    {
+      "Id": "e766c59b-26ed-496a-aa25-834da7f51119"/*Range*/,
+      "DefaultValue": 0.05
+    },
+    {
+      "Id": "6b04307f-4131-464f-b1dc-2de1e8ec17f9"/*InputList*/,
+      "DefaultValue": null
+    }
+  ],
+  "Children": [],
+  "Connections": []
+}

@@ -291,14 +291,14 @@
       }
     },
     {
-      "ChildId": "36187459-f138-4c3a-9a79-cfdd5fa77ee5"/*TextDistortion*/,
+      "ChildId": "36187459-f138-4c3a-9a79-cfdd5fa77ee5"/*TextDistortion2*/,
       "Position": {
         "X": -1726.4497,
         "Y": 838.9042
       }
     },
     {
-      "ChildId": "74020594-625f-48aa-9f09-058cc95d1523"/*TextDistortion*/,
+      "ChildId": "74020594-625f-48aa-9f09-058cc95d1523"/*TextDistortion2*/,
       "Position": {
         "X": -1707.3899,
         "Y": 984.96466

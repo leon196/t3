@@ -1,0 +1,33 @@
+{
+  "Id": "0b300208-38a4-4cdb-800a-0da6c22e58d8"/*ResamplePoints*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "e766c59b-26ed-496a-aa25-834da7f51119"/*Range*/,
+      "Position": {
+        "X": -479.38916,
+        "Y": 367.01147
+      },
+      "Min": 0.005,
+      "Max": 0.1,
+      "Scale": 0.001
+    },
+    {
+      "InputId": "6b04307f-4131-464f-b1dc-2de1e8ec17f9"/*InputList*/,
+      "Position": {
+        "X": -479.38916,
+        "Y": 412.01147
+      }
+    }
+  ],
+  "SymbolChildUis": [],
+  "OutputUis": [
+    {
+      "OutputId": "7197e73e-2770-4388-9f0f-c753212565bb"/*OutputList*/,
+      "Position": {
+        "X": -210.21616,
+        "Y": 480.16382
+      }
+    }
+  ]
+}
