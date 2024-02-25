@@ -101,27 +101,6 @@
         "X": 74.372986,
         "Y": 118.555084
       }
-    },
-    {
-      "ChildId": "14268912-dfdb-4ab6-8e8d-2c71a7f4c8d4"/*ResampleLinePoints*/,
-      "Position": {
-        "X": 547.6951,
-        "Y": -354.8571
-      }
-    },
-    {
-      "ChildId": "e8566210-977c-44be-a69a-95461335b38f"/*SubdivideLinePoints*/,
-      "Position": {
-        "X": 547.6951,
-        "Y": -410.8571
-      }
-    },
-    {
-      "ChildId": "33828199-3fbf-41b7-853e-b52cd6158ae7"/*ResampleLinePoints2*/,
-      "Position": {
-        "X": 547.6951,
-        "Y": -298.8571
-      }
     }
   ],
   "OutputUis": [

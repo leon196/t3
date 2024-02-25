@@ -1,0 +1,72 @@
+{
+  "Id": "259bf0ea-448c-4343-895f-c04529b96f8e"/*Shape1*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "cd5fefe3-2852-4b79-9ac1-2192b2722dee"/*ShapeDistortion*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 40.0
+      }
+    },
+    {
+      "ChildId": "879495fd-79e8-4960-af06-07381937998e"/*ShapeDistortion*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 83.0
+      }
+    },
+    {
+      "ChildId": "bff0b66b-b7ef-4a30-9c5e-f181557841cd"/*PairPointsForLines*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 126.0
+      }
+    },
+    {
+      "ChildId": "dcd7e84f-7cb1-4f6c-abbe-24e60813a5f0"/*DrawLines*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 126.0
+      }
+    },
+    {
+      "ChildId": "995c83bd-1f0c-495e-8a67-bfff5afa8434"/*Execute*/,
+      "Position": {
+        "X": 450.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "c1db6586-6dbf-49c5-be74-8f580e2f9558"/*DrawLines*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "a33ed159-01b9-4957-847d-c8800a258b92"/*CombineBuffers*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "84d39ae7-75ca-4aa4-8a05-546e5dbe7523"/*RenderTarget*/,
+      "Position": {
+        "X": 600.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "b5ce0b16-40a6-4cb1-b383-4141a9ac31d2"/*ColorBuffer*/,
+      "Position": {
+        "X": 1010.0,
+        "Y": 87.5
+      }
+    }
+  ]
+}

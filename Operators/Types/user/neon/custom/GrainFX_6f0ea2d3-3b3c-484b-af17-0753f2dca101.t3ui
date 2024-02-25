@@ -1,0 +1,69 @@
+{
+  "Id": "6f0ea2d3-3b3c-484b-af17-0753f2dca101"/*GrainFX*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "417a44e1-2478-4d9c-b6ec-8206d3f60aa7"/*InputImage*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "73e19b2a-11a5-4d27-b6bd-e703f9ea2bab"/*ColorB*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      },
+      "Min": 0.0,
+      "Max": 1.0,
+      "Clamp": true
+    },
+    {
+      "InputId": "db536891-a6c5-42c1-bdfa-5d833cba04a5"/*Radius*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 135.0
+      }
+    },
+    {
+      "InputId": "e5d47a6a-78cf-4563-b486-a9187d3ebab8"/*Intensity*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 180.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "4f2e1b2a-d591-4bcc-b34a-fc421eb38aeb"/*Grain*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 404.99997
+      }
+    },
+    {
+      "ChildId": "d1b7ae77-dcc3-457e-887d-5cfeeb8dfc2b"/*Glow*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 404.99997
+      }
+    },
+    {
+      "ChildId": "4308ef39-f557-4558-a690-dce4981bb77b"/*Blend*/,
+      "Position": {
+        "X": 403.7962,
+        "Y": 350.89325
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "c1965e92-6459-4c16-83bd-a8ee811e1e88"/*Output*/,
+      "Position": {
+        "X": 710.0,
+        "Y": 220.49998
+      }
+    }
+  ]
+}

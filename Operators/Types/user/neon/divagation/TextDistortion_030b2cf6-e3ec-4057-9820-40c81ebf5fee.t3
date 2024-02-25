@@ -244,24 +244,6 @@
         }
       ],
       "Outputs": []
-    },
-    {
-      "Id": "14268912-dfdb-4ab6-8e8d-2c71a7f4c8d4"/*ResampleLinePoints*/,
-      "SymbolId": "13ff9adb-2634-4129-8bb4-4fb764d38be6",
-      "InputValues": [],
-      "Outputs": []
-    },
-    {
-      "Id": "e8566210-977c-44be-a69a-95461335b38f"/*SubdivideLinePoints*/,
-      "SymbolId": "c7f100bf-05a0-44af-9cf4-c5a1b5937e33",
-      "InputValues": [],
-      "Outputs": []
-    },
-    {
-      "Id": "33828199-3fbf-41b7-853e-b52cd6158ae7"/*ResampleLinePoints2*/,
-      "SymbolId": "9fa11d52-7bac-4552-bd0c-548c13f7cbd4",
-      "InputValues": [],
-      "Outputs": []
     }
   ],
   "Connections": [
