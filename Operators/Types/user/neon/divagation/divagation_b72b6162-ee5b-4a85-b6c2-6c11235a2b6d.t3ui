@@ -52,20 +52,6 @@
       }
     },
     {
-      "ChildId": "73399aa6-7692-4231-952a-637d4759d8ea"/*TextDistortion*/,
-      "Position": {
-        "X": -437.21136,
-        "Y": 335.2665
-      }
-    },
-    {
-      "ChildId": "02e0c19a-382f-4b63-b1cd-f7ceab0dfcfa"/*TextDistortion*/,
-      "Position": {
-        "X": -437.21136,
-        "Y": 378.2665
-      }
-    },
-    {
       "ChildId": "af7bb362-b376-4846-a14f-a25179b060ab"/*OrbitCamera*/,
       "Position": {
         "X": 309.74097,
@@ -91,6 +77,41 @@
       "Position": {
         "X": 817.78864,
         "Y": 475.76648
+      }
+    },
+    {
+      "ChildId": "460b81c4-4cf7-4085-b375-570129883426"/*TextDistortion4*/,
+      "Position": {
+        "X": -437.21136,
+        "Y": 435.2665
+      }
+    },
+    {
+      "ChildId": "e851c0ca-5661-4eaa-a9fc-b5d6ccfc1d2e"/*TextDistortion4*/,
+      "Position": {
+        "X": -429.03833,
+        "Y": 496.97983
+      }
+    },
+    {
+      "ChildId": "276e2f26-9337-4784-bdb3-a962e482199c"/*PerlinNoise3*/,
+      "Position": {
+        "X": 236.85208,
+        "Y": 492.0105
+      }
+    },
+    {
+      "ChildId": "bc646a14-6d1c-4afc-b514-378a92a2f8ad"/*PerlinNoise*/,
+      "Position": {
+        "X": 266.66806,
+        "Y": 594.94666
+      }
+    },
+    {
+      "ChildId": "c92d6e16-c3fb-40a6-943a-9cda5ba0aa33"/*Accumulator*/,
+      "Position": {
+        "X": -349.0321,
+        "Y": 659.00916
       }
     }
   ],

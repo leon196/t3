@@ -1,0 +1,107 @@
+{
+  "Id": "0b0d81ec-c45b-4d58-b9eb-87121b9beb7c"/*divagation6*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "7af77a1d-eef2-498f-8a18-3efecf408ae6"/*DrawLines*/,
+      "Position": {
+        "X": 12.788635,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "9d797949-5814-4dd2-8dc1-84244334ba63"/*Execute*/,
+      "Position": {
+        "X": 162.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "740ea7dc-10fe-4696-b11f-7dee1e23951e"/*CombineBuffers*/,
+      "Position": {
+        "X": -287.21136,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "0b297761-16a6-48d5-a8c7-3ec8d27c02c4"/*RenderTarget*/,
+      "Position": {
+        "X": 462.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "d599cd53-45b2-45e9-bc14-a1c46d522801"/*Camera*/,
+      "Position": {
+        "X": 312.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "1223b206-b584-455f-9ce7-e15febf2adcd"/*DrawLines*/,
+      "Position": {
+        "X": 12.788635,
+        "Y": 441.2665
+      }
+    },
+    {
+      "ChildId": "39979953-e084-4e57-95ec-fb9f85bbd826"/*PairPointsForLines*/,
+      "Position": {
+        "X": -137.21136,
+        "Y": 441.2665
+      }
+    },
+    {
+      "ChildId": "44f6c30f-5cec-4039-bb7d-53ffc4e16bd1"/*OrbitCamera*/,
+      "Position": {
+        "X": 309.74097,
+        "Y": 400.281
+      }
+    },
+    {
+      "ChildId": "cbcc4672-0e2e-4e41-9df1-93907c2a58f4"/*CustomPointShader*/,
+      "Position": {
+        "X": -130.75336,
+        "Y": 313.66696
+      }
+    },
+    {
+      "ChildId": "c3e7156a-c94d-4f5c-bfd7-e5aef4e390ec"/*LinearGradient*/,
+      "Position": {
+        "X": -219.01447,
+        "Y": 607.5144
+      }
+    },
+    {
+      "ChildId": "599c054d-d94e-4457-99e9-54b558c6833e"/*GrainFX*/,
+      "Position": {
+        "X": 817.78864,
+        "Y": 475.76648
+      }
+    },
+    {
+      "ChildId": "3e239b00-7511-47f1-9a44-9285cacea57a"/*TextDistortion3*/,
+      "Position": {
+        "X": -467.38232,
+        "Y": 306.3005
+      }
+    },
+    {
+      "ChildId": "da163191-5aaa-415c-b325-70e65704b677"/*TextDistortion3*/,
+      "Position": {
+        "X": -467.38232,
+        "Y": 349.3005
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "37392459-8983-41a2-9ca5-94f8736d03d4"/*ImgOutput*/,
+      "Position": {
+        "X": 1120.6718,
+        "Y": 193.06818
+      }
+    }
+  ]
+}

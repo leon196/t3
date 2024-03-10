@@ -1,0 +1,107 @@
+{
+  "Id": "2ce4cd36-17aa-46c6-a2a8-e4b54f46fb15"/*divagation7*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "0dd58acf-05ac-40b9-8e14-76280dcfd3fe"/*DrawLines*/,
+      "Position": {
+        "X": 12.788635,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "7dca3069-3fe3-4332-8b84-01879f6cb169"/*Execute*/,
+      "Position": {
+        "X": 162.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "6627b918-3b13-4ea6-8d97-c701f6af74a7"/*CombineBuffers*/,
+      "Position": {
+        "X": -287.21136,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "f931f483-1eb9-43b6-b730-12381e88af9e"/*RenderTarget*/,
+      "Position": {
+        "X": 462.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "cbcbf508-875f-4172-817c-f159bf7980ab"/*Camera*/,
+      "Position": {
+        "X": 312.78864,
+        "Y": 295.2665
+      }
+    },
+    {
+      "ChildId": "d7fc2950-d26b-40f7-9228-60413cd7990a"/*DrawLines*/,
+      "Position": {
+        "X": 12.788635,
+        "Y": 441.2665
+      }
+    },
+    {
+      "ChildId": "c72bef78-2bfa-493c-b495-85b94ca93401"/*PairPointsForLines*/,
+      "Position": {
+        "X": -137.21136,
+        "Y": 441.2665
+      }
+    },
+    {
+      "ChildId": "113cf42a-4e7b-4652-aacc-2f63a72953d3"/*TextDistortion*/,
+      "Position": {
+        "X": -437.21136,
+        "Y": 335.2665
+      }
+    },
+    {
+      "ChildId": "a946d0a5-7251-4da7-a2b9-4ca3f7602105"/*TextDistortion*/,
+      "Position": {
+        "X": -437.21136,
+        "Y": 378.2665
+      }
+    },
+    {
+      "ChildId": "2a2e38e1-d997-443b-ad47-b90764a22fa3"/*OrbitCamera*/,
+      "Position": {
+        "X": 309.74097,
+        "Y": 400.281
+      }
+    },
+    {
+      "ChildId": "4cd0382b-0e47-42c9-8674-a331b5c069ae"/*CustomPointShader*/,
+      "Position": {
+        "X": -130.75336,
+        "Y": 313.66696
+      }
+    },
+    {
+      "ChildId": "3287f806-04fd-4f67-bc92-f63d286984f1"/*LinearGradient*/,
+      "Position": {
+        "X": -219.01447,
+        "Y": 607.5144
+      }
+    },
+    {
+      "ChildId": "c56b2747-3e9f-44b7-af35-e77249089780"/*GrainFX*/,
+      "Position": {
+        "X": 817.78864,
+        "Y": 475.76648
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "ff4b36b6-aaf8-492d-ae1f-955b1d6683d4"/*ImgOutput*/,
+      "Position": {
+        "X": 1120.6718,
+        "Y": 193.06818
+      }
+    }
+  ]
+}
