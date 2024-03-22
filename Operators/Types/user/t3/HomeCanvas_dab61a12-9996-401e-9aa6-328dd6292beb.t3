@@ -81,7 +81,22 @@
       "SymbolId": "8819131b-5a3a-4107-b9b0-34af6139f6b2",
       "InputValues": [],
       "Outputs": []
+    },
+    {
+      "Id": "789a2cc8-0951-4146-9f43-9f1e2d23ea88"/*celine*/,
+      "SymbolId": "32234058-9d62-445f-ba5d-2d966f16c35b",
+      "InputValues": [],
+      "Outputs": []
     }
   ],
-  "Connections": []
+  "Connections": [],
+  "PlaybackSettings": {
+    "Enabled": true,
+    "Bpm": 120.0,
+    "AudioSource": 0,
+    "Syncing": 0,
+    "AudioDecayFactor": 0.9,
+    "AudioGainFactor": 1.0,
+    "AudioInputDeviceName": ""
+  }
 }

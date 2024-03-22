@@ -1,0 +1,289 @@
+{
+  "Id": "cc966aa5-cf8a-4522-94a0-f0d0c4849fb5"/*SceneWasp*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "eeca9af7-c258-41db-a384-6728c1c8647b"/*Execute*/,
+      "Position": {
+        "X": 854.5069,
+        "Y": 309.06165
+      }
+    },
+    {
+      "ChildId": "8ae15160-7664-4f45-ab3f-8a9fb5c35cf5"/*Background*/,
+      "Position": {
+        "X": 451.27185,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "e77c34d1-2d5b-42dc-b54a-66ffbc7d63f3"/*Title*/,
+      "Position": {
+        "X": 451.27185,
+        "Y": 106.0
+      }
+    },
+    {
+      "ChildId": "406c45bb-b584-4f20-9391-00af9db0eda2"/*AString*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 676.0423
+      }
+    },
+    {
+      "ChildId": "cde0ed37-a6e7-4090-b836-715a6ed245d9"/*Subtitle*/,
+      "Position": {
+        "X": 451.27185,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "20268298-7a7b-427a-b4a7-083e7fca4ab5"/*Blob*/,
+      "Position": {
+        "X": 301.27185,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "fff0cb75-fb1e-4b00-bc3e-81f48017b905"/*Signature*/,
+      "Position": {
+        "X": 451.27185,
+        "Y": 149.0
+      }
+    },
+    {
+      "ChildId": "bda639e2-ee5a-4a2d-b7cb-4df51fff2a78"/*LoadImage*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 593.0423
+      }
+    },
+    {
+      "ChildId": "03777681-2ff1-4ab6-b202-966e98195c1e"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 676.0423
+      }
+    },
+    {
+      "ChildId": "434eaaf8-61d6-4018-9a55-0833fae14ad8"/*OldPhoto*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 593.0423
+      }
+    },
+    {
+      "ChildId": "8cbc5674-7c53-4b7f-ba1e-cfb2a657b815"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 593.0423
+      }
+    },
+    {
+      "ChildId": "1bb74e1e-451d-4dfa-ace7-157b5dd78f0e"/*LoadImage*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 842.0423
+      }
+    },
+    {
+      "ChildId": "b6340bc2-c8d4-4e29-a7c1-a9cd1a6248ef"/*OldPhoto*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 842.0423
+      }
+    },
+    {
+      "ChildId": "8f9d1d6b-f07e-40e6-8a62-92df6a66b240"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 842.0423
+      }
+    },
+    {
+      "ChildId": "8d7f6dfb-3226-4528-9c98-807a83cfcd98"/*TextCluster*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 676.0423
+      }
+    },
+    {
+      "ChildId": "ca489b32-b1d2-47f6-a673-6d01baa1683e"/*AString*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 925.0423
+      }
+    },
+    {
+      "ChildId": "7a25f5e6-186e-4946-8158-cecab1d74d04"/*TextCluster*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 925.0423
+      }
+    },
+    {
+      "ChildId": "2fe2488c-54bd-42d2-a3c9-7bc37b49fa87"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 925.0423
+      }
+    },
+    {
+      "ChildId": "75d4ca14-616b-42f4-b77d-18b662b6d8b8"/*AString*/,
+      "Position": {
+        "X": 248.00995,
+        "Y": 1081.2678
+      }
+    },
+    {
+      "ChildId": "8712ebc1-4c52-47e4-97fa-a89b22f322b8"/*TextCluster*/,
+      "Position": {
+        "X": 398.00995,
+        "Y": 1081.2678
+      }
+    },
+    {
+      "ChildId": "88eb8296-b813-4d7c-a0d7-2f8f6356babb"/*Transform*/,
+      "Position": {
+        "X": 548.00995,
+        "Y": 1081.2678
+      }
+    },
+    {
+      "ChildId": "0500c615-e65b-4358-a210-91263153454f"/*MeshWasp*/,
+      "Position": {
+        "X": 68.77649,
+        "Y": 248.89233
+      }
+    },
+    {
+      "ChildId": "597a7788-cfc0-4607-a756-129a9621b3af"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 1008.0423
+      }
+    },
+    {
+      "ChildId": "daf8fe0e-4274-4be6-98c3-c0c340187950"/*DataCluster*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 1008.0423
+      }
+    },
+    {
+      "ChildId": "264b3dfb-2b33-4dc3-9b4b-e3965b8add0b"/*Transform*/,
+      "Position": {
+        "X": 402.08112,
+        "Y": 282.15015
+      }
+    },
+    {
+      "ChildId": "4d228126-ff81-45a9-b92a-0d8b984165c1"/*MeshWasp*/,
+      "Position": {
+        "X": 252.08112,
+        "Y": 345.15015
+      }
+    },
+    {
+      "ChildId": "75335058-b290-4e25-a9df-129a0fb3cb81"/*Transform*/,
+      "Position": {
+        "X": 402.08112,
+        "Y": 345.15015
+      }
+    },
+    {
+      "ChildId": "21b53176-175a-4058-88b7-8a6679f572f6"/*Group*/,
+      "Position": {
+        "X": 552.0811,
+        "Y": 282.15015
+      }
+    },
+    {
+      "ChildId": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2"/*Group*/,
+      "Position": {
+        "X": 450.0,
+        "Y": 593.0423
+      }
+    },
+    {
+      "ChildId": "7f236564-b576-4af1-926f-e15225b83807"/*Execute*/,
+      "Position": {
+        "X": 600.0,
+        "Y": 593.0423
+      }
+    },
+    {
+      "ChildId": "967ff970-fe68-454a-929d-05403975110c"/*Group*/,
+      "Position": {
+        "X": 601.27185,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "18a6426f-3477-4c59-90a9-c7ab85c5d7cf"/*Transform*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 759.0423
+      }
+    },
+    {
+      "ChildId": "e2239031-fda3-4fd0-a4e7-5312b41a9699"/*DataCluster*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 759.0423
+      }
+    },
+    {
+      "ChildId": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e"/*Group*/,
+      "Position": {
+        "X": 450.0,
+        "Y": 842.0423
+      }
+    },
+    {
+      "ChildId": "33834c76-6704-4596-8ae4-2f31ff55aad0"/*AString*/,
+      "Position": {
+        "X": 102.081116,
+        "Y": 408.15015
+      }
+    },
+    {
+      "ChildId": "be3639a6-d173-47e4-8cf7-a2006c356a77"/*TextCluster*/,
+      "Position": {
+        "X": 252.08112,
+        "Y": 408.15015
+      }
+    },
+    {
+      "ChildId": "70d2ec57-94c0-45f6-9ff9-bebd93c4b3e0"/*Transform*/,
+      "Position": {
+        "X": 402.08112,
+        "Y": 408.15015
+      }
+    },
+    {
+      "ChildId": "c675c1de-3d62-4e1e-b4f5-46a05001aa55"/*Transform*/,
+      "Position": {
+        "X": 402.08112,
+        "Y": 491.15015
+      }
+    },
+    {
+      "ChildId": "e73d5194-9966-41e6-9555-4c00f4d73854"/*DataCluster*/,
+      "Position": {
+        "X": 252.08112,
+        "Y": 491.15015
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "8d00fee5-7232-441c-a27b-ba76a76d347a"/*Output*/,
+      "Position": {
+        "X": 1575.763,
+        "Y": 558.6339
+      }
+    }
+  ]
+}

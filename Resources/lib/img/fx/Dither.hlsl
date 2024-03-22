@@ -82,5 +82,6 @@ float4 psMain(vsOutput psInput) : SV_TARGET
     float blackOrWhite = dithering + grayScale < 0.5 ? 0 : 1;
 
     float4 c= lerp(Black,White, blackOrWhite);
-        return (IsTextureValid < 0.5) ? c : BlendColors(color, c, (int)BlendMode);
+    c.a = color.a;
+    return (IsTextureValid < 0.5) ? c : BlendColors(color, c, (int)BlendMode);
 }  

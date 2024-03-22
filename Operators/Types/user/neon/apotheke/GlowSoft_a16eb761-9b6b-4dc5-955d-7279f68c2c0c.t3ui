@@ -1,0 +1,62 @@
+{
+  "Id": "a16eb761-9b6b-4dc5-955d-7279f68c2c0c"/*GlowSoft*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "6cafdcf5-43a3-4ade-bcb5-3a1c5defca15"/*Image*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "bfe1a638-083c-44cf-aeea-e69f557c4bab"/*Add*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      },
+      "Min": 0.0,
+      "Max": 1.0,
+      "Clamp": true
+    },
+    {
+      "InputId": "11b3db59-2cc1-4d7f-aa05-172f755b45d0"/*Size*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 135.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "aea1304f-b307-4b46-80e8-c4ed6480bf12"/*ChannelMixer*/,
+      "Position": {
+        "X": 202.33536,
+        "Y": 9.761414
+      }
+    },
+    {
+      "ChildId": "6e33f062-8fe8-4675-aec8-42b56f51194c"/*Blur*/,
+      "Position": {
+        "X": 352.33536,
+        "Y": 9.761414
+      }
+    },
+    {
+      "ChildId": "61275c2b-e436-4ec3-bac3-9d705df94572"/*Blend*/,
+      "Position": {
+        "X": 508.74588,
+        "Y": 39.066895
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "b92633d5-a659-467c-8d70-fa90d095fc0e"/*Output*/,
+      "Position": {
+        "X": 912.3353,
+        "Y": 29.380707
+      }
+    }
+  ]
+}

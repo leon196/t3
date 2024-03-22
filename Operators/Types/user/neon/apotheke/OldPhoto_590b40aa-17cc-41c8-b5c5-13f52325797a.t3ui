@@ -1,0 +1,108 @@
+{
+  "Id": "590b40aa-17cc-41c8-b5c5-13f52325797a"/*OldPhoto*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "5537c9d5-3710-4f51-a67a-6e14a9f9618a"/*Texture2d*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "InputId": "e4edb515-9bb5-47c8-b9df-e9cb9ee564fd"/*Contrast*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "3a7c8478-c1f9-49ee-855e-ecf786f32106"/*Exposure*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "a772c6f9-04ce-4b76-b761-26f64a7c4b2b"/*Layer2d*/,
+      "Position": {
+        "X": 1050.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "92acaa98-6331-434f-be23-cb58aa84559b"/*AdjustColors*/,
+      "Position": {
+        "X": 750.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "dc6e21a1-7162-4b77-9075-17390939fa57"/*RoundedRect*/,
+      "Position": {
+        "X": 750.0,
+        "Y": 173.0
+      }
+    },
+    {
+      "ChildId": "36429955-68c6-40e9-a44d-5705d12f377f"/*GetTextureSize*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 213.0
+      }
+    },
+    {
+      "ChildId": "a5bb40a8-6cae-4cc4-a78f-2a4a69b400f5"/*Blend*/,
+      "Position": {
+        "X": 910.0238,
+        "Y": -120.285
+      }
+    },
+    {
+      "ChildId": "cbe04bd7-4209-4538-a076-bc4c92c5d6ea"/*Vector2Components*/,
+      "Position": {
+        "X": 94.186646,
+        "Y": 326.98444
+      }
+    },
+    {
+      "ChildId": "e524740d-91ef-4120-8558-e451497c7042"/*Div*/,
+      "Position": {
+        "X": 324.55902,
+        "Y": 349.51874
+      }
+    },
+    {
+      "ChildId": "25cf106e-17a2-4a26-91fe-5e00ebfbe180"/*Stretch*/,
+      "Position": {
+        "X": 600.0,
+        "Y": 173.0
+      }
+    },
+    {
+      "ChildId": "beb6b452-8eac-4ab2-b05d-7672f7a188d5"/*Layer2d*/,
+      "Position": {
+        "X": 984.784,
+        "Y": 202.47467
+      }
+    },
+    {
+      "ChildId": "84dfd77e-47ad-4360-8ed2-3c0e702c6dee"/*Execute*/,
+      "Position": {
+        "X": 1189.8462,
+        "Y": 129.61377
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "ebaf0c0a-3a75-4313-85a7-eabf8edabfb0"/*Output*/,
+      "Position": {
+        "X": 1460.0,
+        "Y": 124.5
+      }
+    }
+  ]
+}

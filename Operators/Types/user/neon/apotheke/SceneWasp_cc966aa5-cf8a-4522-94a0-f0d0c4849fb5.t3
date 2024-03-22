@@ -1,0 +1,800 @@
+{
+  "Name": "SceneWasp",
+  "Id": "cc966aa5-cf8a-4522-94a0-f0d0c4849fb5",
+  "Namespace": "user.neon.apotheke",
+  "Inputs": [],
+  "Children": [
+    {
+      "Id": "eeca9af7-c258-41db-a384-6728c1c8647b"/*Execute*/,
+      "SymbolId": "936e4324-bea2-463a-b196-6064a2d8a6b2",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "8ae15160-7664-4f45-ab3f-8a9fb5c35cf5"/*Background*/,
+      "SymbolId": "5a2752e8-95ae-4d76-b903-1f52ef43bcdc",
+      "Name": "Background",
+      "InputValues": [
+        {
+          "Id": "4e8fecd0-00ca-404e-a9d4-1cb0d3e044f1"/*Color*/,
+          "Type": "System.Numerics.Vector4",
+          "Value": {
+            "X": 0.31100476,
+            "Y": 0.31100476,
+            "Z": 0.31100476,
+            "W": 1.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "e77c34d1-2d5b-42dc-b54a-66ffbc7d63f3"/*Title*/,
+      "SymbolId": "fd31d208-12fe-46bf-bfa3-101211f8f497",
+      "Name": "Title",
+      "InputValues": [
+        {
+          "Id": "f1f1be0e-d5bc-4940-bbc1-88bfa958f0e1"/*InputText*/,
+          "Type": "System.String",
+          "Value": "APOTHEKE"
+        },
+        {
+          "Id": "de0fed7d-d2af-4424-baf3-81606e26559f"/*Position*/,
+          "Type": "System.Numerics.Vector2",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.764526
+          }
+        },
+        {
+          "Id": "d89c518c-a862-4f46-865b-0380350b7417"/*Size*/,
+          "Type": "System.Single",
+          "Value": 130.0
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "406c45bb-b584-4f20-9391-00af9db0eda2"/*AString*/,
+      "SymbolId": "5880cbc3-a541-4484-a06a-0e6f77cdbe8e",
+      "InputValues": [
+        {
+          "Id": "ceeae47b-d792-471d-a825-49e22749b7b9"/*InputString*/,
+          "Type": "System.String",
+          "Value": "A wasp is any insect of the narrow-waisted suborder Apocrita of the order Hymenoptera which is neither a bee nor an ant; this excludes the broad-waisted sawflies (Symphyta), which look somewhat like wasps, but are in a separate suborder. The wasps do not constitute a clade, a complete natural group with a single ancestor, as bees and ants are deeply nested within the wasps, having evolved from wasp ancestors. Wasps that are members of the clade Aculeata can sting their prey."
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "cde0ed37-a6e7-4090-b836-715a6ed245d9"/*Subtitle*/,
+      "SymbolId": "fd31d208-12fe-46bf-bfa3-101211f8f497",
+      "Name": "Subtitle",
+      "InputValues": [
+        {
+          "Id": "f1f1be0e-d5bc-4940-bbc1-88bfa958f0e1"/*InputText*/,
+          "Type": "System.String",
+          "Value": "a pc demo for revision 2024"
+        },
+        {
+          "Id": "de0fed7d-d2af-4424-baf3-81606e26559f"/*Position*/,
+          "Type": "System.Numerics.Vector2",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.63
+          }
+        },
+        {
+          "Id": "d89c518c-a862-4f46-865b-0380350b7417"/*Size*/,
+          "Type": "System.Single",
+          "Value": 28.0
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "20268298-7a7b-427a-b4a7-083e7fca4ab5"/*Blob*/,
+      "SymbolId": "27b0e1af-cb2e-4603-83f9-5c9b042d87e6",
+      "InputValues": [
+        {
+          "Id": "33f31c62-b0ea-42f9-a226-d0f5154731ee"/*Scale*/,
+          "Type": "System.Single",
+          "Value": 2.09
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "fff0cb75-fb1e-4b00-bc3e-81f48017b905"/*Signature*/,
+      "SymbolId": "bcf70318-ade2-4dad-8fed-82c7ffb618b3",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "bda639e2-ee5a-4a2d-b7cb-4df51fff2a78"/*LoadImage*/,
+      "SymbolId": "0b3436db-e283-436e-ba85-2f3a1de76a9d",
+      "InputValues": [
+        {
+          "Id": "76cc3811-4ae0-48b2-a119-890db5a4eeb2"/*Path*/,
+          "Type": "System.String",
+          "Value": "Resources\\user\\neon\\apotheke\\images\\Vespula_germanica_Richard_Bartz.jpg"
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "03777681-2ff1-4ab6-b202-966e98195c1e"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": -0.44,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 0.72
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "434eaaf8-61d6-4018-9a55-0833fae14ad8"/*OldPhoto*/,
+      "SymbolId": "590b40aa-17cc-41c8-b5c5-13f52325797a",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "8cbc5674-7c53-4b7f-ba1e-cfb2a657b815"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "1bb74e1e-451d-4dfa-ace7-157b5dd78f0e"/*LoadImage*/,
+      "SymbolId": "0b3436db-e283-436e-ba85-2f3a1de76a9d",
+      "InputValues": [
+        {
+          "Id": "76cc3811-4ae0-48b2-a119-890db5a4eeb2"/*Path*/,
+          "Type": "System.String",
+          "Value": "Resources\\user\\neon\\apotheke\\images\\Megascolia_procer_MHNT_dos.jpg"
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "b6340bc2-c8d4-4e29-a7c1-a9cd1a6248ef"/*OldPhoto*/,
+      "SymbolId": "590b40aa-17cc-41c8-b5c5-13f52325797a",
+      "InputValues": [
+        {
+          "Id": "e4edb515-9bb5-47c8-b9df-e9cb9ee564fd"/*Contrast*/,
+          "Type": "System.Single",
+          "Value": 7.47
+        },
+        {
+          "Id": "3a7c8478-c1f9-49ee-855e-ecf786f32106"/*Exposure*/,
+          "Type": "System.Single",
+          "Value": 1.12
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "8f9d1d6b-f07e-40e6-8a62-92df6a66b240"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 0.45
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "8d7f6dfb-3226-4528-9c98-807a83cfcd98"/*TextCluster*/,
+      "SymbolId": "ba054103-b58e-4db8-ab92-9560458c036b",
+      "InputValues": [
+        {
+          "Id": "0d86d532-0d72-4852-a546-10634a1eb402"/*Rate*/,
+          "Type": "System.Single",
+          "Value": 1.0
+        },
+        {
+          "Id": "dfb34c7a-7510-4758-a082-3311f627f1c7"/*Size*/,
+          "Type": "System.Single",
+          "Value": 27.0
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "ca489b32-b1d2-47f6-a673-6d01baa1683e"/*AString*/,
+      "SymbolId": "5880cbc3-a541-4484-a06a-0e6f77cdbe8e",
+      "InputValues": [
+        {
+          "Id": "ceeae47b-d792-471d-a825-49e22749b7b9"/*InputString*/,
+          "Type": "System.String",
+          "Value": "Of the dozens of extant wasp families, only the family Vespidae contains social species, primarily in the subfamilies Vespinae and Polistinae. With their powerful stings and conspicuous warning coloration, often in black and yellow, social wasps are frequent models for Batesian mimicry by non-stinging insects, and are themselves involved in mutually beneficial Müllerian mimicry of other distasteful insects including bees and other wasps."
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "7a25f5e6-186e-4946-8158-cecab1d74d04"/*TextCluster*/,
+      "SymbolId": "ba054103-b58e-4db8-ab92-9560458c036b",
+      "InputValues": [
+        {
+          "Id": "0d86d532-0d72-4852-a546-10634a1eb402"/*Rate*/,
+          "Type": "System.Single",
+          "Value": 0.4
+        },
+        {
+          "Id": "dfb34c7a-7510-4758-a082-3311f627f1c7"/*Size*/,
+          "Type": "System.Single",
+          "Value": 17.9
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "2fe2488c-54bd-42d2-a3c9-7bc37b49fa87"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": -0.22227573,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 0.7
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "75d4ca14-616b-42f4-b77d-18b662b6d8b8"/*AString*/,
+      "SymbolId": "5880cbc3-a541-4484-a06a-0e6f77cdbe8e",
+      "InputValues": [
+        {
+          "Id": "ceeae47b-d792-471d-a825-49e22749b7b9"/*InputString*/,
+          "Type": "System.String",
+          "Value": "Of the dozens of extant wasp families, only the family Vespidae contains social species, primarily in the subfamilies Vespinae and Polistinae. With their powerful stings and conspicuous warning coloration, often in black and yellow, social wasps are frequent models for Batesian mimicry by non-stinging insects, and are themselves involved in mutually beneficial Müllerian mimicry of other distasteful insects including bees and other wasps."
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "8712ebc1-4c52-47e4-97fa-a89b22f322b8"/*TextCluster*/,
+      "SymbolId": "ba054103-b58e-4db8-ab92-9560458c036b",
+      "InputValues": [
+        {
+          "Id": "0d86d532-0d72-4852-a546-10634a1eb402"/*Rate*/,
+          "Type": "System.Single",
+          "Value": 0.4
+        },
+        {
+          "Id": "dfb34c7a-7510-4758-a082-3311f627f1c7"/*Size*/,
+          "Type": "System.Single",
+          "Value": 17.9
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "88eb8296-b813-4d7c-a0d7-2f8f6356babb"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.84145874,
+            "Y": 0.34928474,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 1.08
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "0500c615-e65b-4358-a210-91263153454f"/*MeshWasp*/,
+      "SymbolId": "54708593-dae4-423e-a4fd-6e4221983af1",
+      "InputValues": [
+        {
+          "Id": "dc1e6911-ad86-4687-bec6-d1a5585176fd"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "269b912b-d40b-499e-8487-3b078dffed11"/*Rotation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "1dce9910-6855-4a10-9ce9-4545c57a7158"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 1.0
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "597a7788-cfc0-4607-a756-129a9621b3af"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "daf8fe0e-4274-4be6-98c3-c0c340187950"/*DataCluster*/,
+      "SymbolId": "df926f96-32a3-43c3-95c9-9fba0f766f9e",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "264b3dfb-2b33-4dc3-9b4b-e3965b8add0b"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.1270126,
+            "Z": 0.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "4d228126-ff81-45a9-b92a-0d8b984165c1"/*MeshWasp*/,
+      "SymbolId": "54708593-dae4-423e-a4fd-6e4221983af1",
+      "InputValues": [
+        {
+          "Id": "dc1e6911-ad86-4687-bec6-d1a5585176fd"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "269b912b-d40b-499e-8487-3b078dffed11"/*Rotation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 5.0,
+            "Y": -56.2,
+            "Z": 270.0
+          }
+        },
+        {
+          "Id": "1dce9910-6855-4a10-9ce9-4545c57a7158"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 1.09
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "75335058-b290-4e25-a9df-129a0fb3cb81"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.39294523,
+            "Y": -0.3572229,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 0.48
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "21b53176-175a-4058-88b7-8a6679f572f6"/*Group*/,
+      "SymbolId": "a3f64d34-1fab-4230-86b3-1c3deba3f90b",
+      "InputValues": [
+        {
+          "Id": "9e24c5d1-191a-4c1a-b88e-03df826fffc0"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.46438983,
+            "Y": -0.19051877,
+            "Z": 0.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2"/*Group*/,
+      "SymbolId": "a3f64d34-1fab-4230-86b3-1c3deba3f90b",
+      "InputValues": [
+        {
+          "Id": "9e24c5d1-191a-4c1a-b88e-03df826fffc0"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": -0.38500673,
+            "Y": -0.32547006,
+            "Z": 0.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "7f236564-b576-4af1-926f-e15225b83807"/*Execute*/,
+      "SymbolId": "936e4324-bea2-463a-b196-6064a2d8a6b2",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "967ff970-fe68-454a-929d-05403975110c"/*Group*/,
+      "SymbolId": "a3f64d34-1fab-4230-86b3-1c3deba3f90b",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "18a6426f-3477-4c59-90a9-c7ab85c5d7cf"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "e2239031-fda3-4fd0-a4e7-5312b41a9699"/*DataCluster*/,
+      "SymbolId": "df926f96-32a3-43c3-95c9-9fba0f766f9e",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e"/*Group*/,
+      "SymbolId": "a3f64d34-1fab-4230-86b3-1c3deba3f90b",
+      "InputValues": [
+        {
+          "Id": "9e24c5d1-191a-4c1a-b88e-03df826fffc0"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": -1.2185277,
+            "Y": 0.17464238,
+            "Z": 0.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "33834c76-6704-4596-8ae4-2f31ff55aad0"/*AString*/,
+      "SymbolId": "5880cbc3-a541-4484-a06a-0e6f77cdbe8e",
+      "InputValues": [
+        {
+          "Id": "ceeae47b-d792-471d-a825-49e22749b7b9"/*InputString*/,
+          "Type": "System.String",
+          "Value": "Of the dozens of extant wasp families, only the family Vespidae contains social species, primarily in the subfamilies Vespinae and Polistinae. With their powerful stings and conspicuous warning coloration, often in black and yellow, social wasps are frequent models for Batesian mimicry by non-stinging insects, and are themselves involved in mutually beneficial Müllerian mimicry of other distasteful insects including bees and other wasps."
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "be3639a6-d173-47e4-8cf7-a2006c356a77"/*TextCluster*/,
+      "SymbolId": "ba054103-b58e-4db8-ab92-9560458c036b",
+      "InputValues": [
+        {
+          "Id": "0d86d532-0d72-4852-a546-10634a1eb402"/*Rate*/,
+          "Type": "System.Single",
+          "Value": 0.4
+        },
+        {
+          "Id": "dfb34c7a-7510-4758-a082-3311f627f1c7"/*Size*/,
+          "Type": "System.Single",
+          "Value": 17.9
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "70d2ec57-94c0-45f6-9ff9-bebd93c4b3e0"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.6033109,
+            "Y": -0.0079429895,
+            "Z": 0.0
+          }
+        },
+        {
+          "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
+          "Type": "System.Single",
+          "Value": 0.7
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "c675c1de-3d62-4e1e-b4f5-46a05001aa55"/*Transform*/,
+      "SymbolId": "284d2183-197d-47fd-b130-873cced78b1c",
+      "InputValues": [
+        {
+          "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
+          "Type": "System.Numerics.Vector3",
+          "Value": {
+            "X": 0.23419267,
+            "Y": 0.3453167,
+            "Z": 0.0
+          }
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "e73d5194-9966-41e6-9555-4c00f4d73854"/*DataCluster*/,
+      "SymbolId": "df926f96-32a3-43c3-95c9-9fba0f766f9e",
+      "InputValues": [],
+      "Outputs": []
+    }
+  ],
+  "Connections": [
+    {
+      "SourceParentOrChildId": "eeca9af7-c258-41db-a384-6728c1c8647b",
+      "SourceSlotId": "e81c99ce-fcee-4e7c-a1c7-0aa3b352b7e1",
+      "TargetParentOrChildId": "00000000-0000-0000-0000-000000000000",
+      "TargetSlotId": "8d00fee5-7232-441c-a27b-ba76a76d347a"
+    },
+    {
+      "SourceParentOrChildId": "8d7f6dfb-3226-4528-9c98-807a83cfcd98",
+      "SourceSlotId": "a43edb7e-1312-40a3-bc01-345441402840",
+      "TargetParentOrChildId": "03777681-2ff1-4ab6-b202-966e98195c1e",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "e2239031-fda3-4fd0-a4e7-5312b41a9699",
+      "SourceSlotId": "cf826f32-3c9f-49bf-b596-94f2a84b24b1",
+      "TargetParentOrChildId": "18a6426f-3477-4c59-90a9-c7ab85c5d7cf",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "264b3dfb-2b33-4dc3-9b4b-e3965b8add0b",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "21b53176-175a-4058-88b7-8a6679f572f6",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "75335058-b290-4e25-a9df-129a0fb3cb81",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "21b53176-175a-4058-88b7-8a6679f572f6",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "70d2ec57-94c0-45f6-9ff9-bebd93c4b3e0",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "21b53176-175a-4058-88b7-8a6679f572f6",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "c675c1de-3d62-4e1e-b4f5-46a05001aa55",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "21b53176-175a-4058-88b7-8a6679f572f6",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "0500c615-e65b-4358-a210-91263153454f",
+      "SourceSlotId": "c116e2ae-14db-4b55-bb0b-795ab36f3675",
+      "TargetParentOrChildId": "264b3dfb-2b33-4dc3-9b4b-e3965b8add0b",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "7a25f5e6-186e-4946-8158-cecab1d74d04",
+      "SourceSlotId": "a43edb7e-1312-40a3-bc01-345441402840",
+      "TargetParentOrChildId": "2fe2488c-54bd-42d2-a3c9-7bc37b49fa87",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "bda639e2-ee5a-4a2d-b7cb-4df51fff2a78",
+      "SourceSlotId": "e0c4fedd-5c2f-46c8-b67d-5667435fb037",
+      "TargetParentOrChildId": "434eaaf8-61d6-4018-9a55-0833fae14ad8",
+      "TargetSlotId": "5537c9d5-3710-4f51-a67a-6e14a9f9618a"
+    },
+    {
+      "SourceParentOrChildId": "daf8fe0e-4274-4be6-98c3-c0c340187950",
+      "SourceSlotId": "cf826f32-3c9f-49bf-b596-94f2a84b24b1",
+      "TargetParentOrChildId": "597a7788-cfc0-4607-a756-129a9621b3af",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "be3639a6-d173-47e4-8cf7-a2006c356a77",
+      "SourceSlotId": "a43edb7e-1312-40a3-bc01-345441402840",
+      "TargetParentOrChildId": "70d2ec57-94c0-45f6-9ff9-bebd93c4b3e0",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "4d228126-ff81-45a9-b92a-0d8b984165c1",
+      "SourceSlotId": "c116e2ae-14db-4b55-bb0b-795ab36f3675",
+      "TargetParentOrChildId": "75335058-b290-4e25-a9df-129a0fb3cb81",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "ca489b32-b1d2-47f6-a673-6d01baa1683e",
+      "SourceSlotId": "dd9d8718-addc-49b1-bd33-aac22b366f94",
+      "TargetParentOrChildId": "7a25f5e6-186e-4946-8158-cecab1d74d04",
+      "TargetSlotId": "5081ee61-a75c-4d27-9c34-cfb7c56a8f43"
+    },
+    {
+      "SourceParentOrChildId": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2",
+      "SourceSlotId": "977ca2f4-cddb-4b9a-82b2-ff66453bbf9b",
+      "TargetParentOrChildId": "7f236564-b576-4af1-926f-e15225b83807",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e",
+      "SourceSlotId": "977ca2f4-cddb-4b9a-82b2-ff66453bbf9b",
+      "TargetParentOrChildId": "7f236564-b576-4af1-926f-e15225b83807",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "75d4ca14-616b-42f4-b77d-18b662b6d8b8",
+      "SourceSlotId": "dd9d8718-addc-49b1-bd33-aac22b366f94",
+      "TargetParentOrChildId": "8712ebc1-4c52-47e4-97fa-a89b22f322b8",
+      "TargetSlotId": "5081ee61-a75c-4d27-9c34-cfb7c56a8f43"
+    },
+    {
+      "SourceParentOrChildId": "8712ebc1-4c52-47e4-97fa-a89b22f322b8",
+      "SourceSlotId": "a43edb7e-1312-40a3-bc01-345441402840",
+      "TargetParentOrChildId": "88eb8296-b813-4d7c-a0d7-2f8f6356babb",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "20268298-7a7b-427a-b4a7-083e7fca4ab5",
+      "SourceSlotId": "b882de23-5b94-4791-af13-e195211cffb3",
+      "TargetParentOrChildId": "8ae15160-7664-4f45-ab3f-8a9fb5c35cf5",
+      "TargetSlotId": "92c66734-dce9-402a-95f6-cde0e58bf32f"
+    },
+    {
+      "SourceParentOrChildId": "434eaaf8-61d6-4018-9a55-0833fae14ad8",
+      "SourceSlotId": "ebaf0c0a-3a75-4313-85a7-eabf8edabfb0",
+      "TargetParentOrChildId": "8cbc5674-7c53-4b7f-ba1e-cfb2a657b815",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "406c45bb-b584-4f20-9391-00af9db0eda2",
+      "SourceSlotId": "dd9d8718-addc-49b1-bd33-aac22b366f94",
+      "TargetParentOrChildId": "8d7f6dfb-3226-4528-9c98-807a83cfcd98",
+      "TargetSlotId": "5081ee61-a75c-4d27-9c34-cfb7c56a8f43"
+    },
+    {
+      "SourceParentOrChildId": "b6340bc2-c8d4-4e29-a7c1-a9cd1a6248ef",
+      "SourceSlotId": "ebaf0c0a-3a75-4313-85a7-eabf8edabfb0",
+      "TargetParentOrChildId": "8f9d1d6b-f07e-40e6-8a62-92df6a66b240",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "8ae15160-7664-4f45-ab3f-8a9fb5c35cf5",
+      "SourceSlotId": "3c8116a2-2686-41ba-8bfd-d1b3fb929b02",
+      "TargetParentOrChildId": "967ff970-fe68-454a-929d-05403975110c",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "cde0ed37-a6e7-4090-b836-715a6ed245d9",
+      "SourceSlotId": "3f8b20a7-c8b8-45ab-86a1-0efcd927358e",
+      "TargetParentOrChildId": "967ff970-fe68-454a-929d-05403975110c",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "e77c34d1-2d5b-42dc-b54a-66ffbc7d63f3",
+      "SourceSlotId": "3f8b20a7-c8b8-45ab-86a1-0efcd927358e",
+      "TargetParentOrChildId": "967ff970-fe68-454a-929d-05403975110c",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "fff0cb75-fb1e-4b00-bc3e-81f48017b905",
+      "SourceSlotId": "c28e29ba-27a2-40ef-b2eb-ebabfe63518f",
+      "TargetParentOrChildId": "967ff970-fe68-454a-929d-05403975110c",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "8f9d1d6b-f07e-40e6-8a62-92df6a66b240",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "2fe2488c-54bd-42d2-a3c9-7bc37b49fa87",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "597a7788-cfc0-4607-a756-129a9621b3af",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "a1dc2927-9e4d-4a63-9e17-5f0a3232196e",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "1bb74e1e-451d-4dfa-ace7-157b5dd78f0e",
+      "SourceSlotId": "e0c4fedd-5c2f-46c8-b67d-5667435fb037",
+      "TargetParentOrChildId": "b6340bc2-c8d4-4e29-a7c1-a9cd1a6248ef",
+      "TargetSlotId": "5537c9d5-3710-4f51-a67a-6e14a9f9618a"
+    },
+    {
+      "SourceParentOrChildId": "33834c76-6704-4596-8ae4-2f31ff55aad0",
+      "SourceSlotId": "dd9d8718-addc-49b1-bd33-aac22b366f94",
+      "TargetParentOrChildId": "be3639a6-d173-47e4-8cf7-a2006c356a77",
+      "TargetSlotId": "5081ee61-a75c-4d27-9c34-cfb7c56a8f43"
+    },
+    {
+      "SourceParentOrChildId": "e73d5194-9966-41e6-9555-4c00f4d73854",
+      "SourceSlotId": "cf826f32-3c9f-49bf-b596-94f2a84b24b1",
+      "TargetParentOrChildId": "c675c1de-3d62-4e1e-b4f5-46a05001aa55",
+      "TargetSlotId": "dcd066ce-ac44-4e76-85b3-78821245d9dc"
+    },
+    {
+      "SourceParentOrChildId": "8cbc5674-7c53-4b7f-ba1e-cfb2a657b815",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "03777681-2ff1-4ab6-b202-966e98195c1e",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "18a6426f-3477-4c59-90a9-c7ab85c5d7cf",
+      "SourceSlotId": "2d329133-29b9-4f56-b5a6-5ff7d83638fa",
+      "TargetParentOrChildId": "cfa2134f-90d7-46e0-91d7-50de5f6d98d2",
+      "TargetSlotId": "9e961f73-1ee7-4369-9ac7-5c653e570b6f"
+    },
+    {
+      "SourceParentOrChildId": "967ff970-fe68-454a-929d-05403975110c",
+      "SourceSlotId": "977ca2f4-cddb-4b9a-82b2-ff66453bbf9b",
+      "TargetParentOrChildId": "eeca9af7-c258-41db-a384-6728c1c8647b",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "21b53176-175a-4058-88b7-8a6679f572f6",
+      "SourceSlotId": "977ca2f4-cddb-4b9a-82b2-ff66453bbf9b",
+      "TargetParentOrChildId": "eeca9af7-c258-41db-a384-6728c1c8647b",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "7f236564-b576-4af1-926f-e15225b83807",
+      "SourceSlotId": "e81c99ce-fcee-4e7c-a1c7-0aa3b352b7e1",
+      "TargetParentOrChildId": "eeca9af7-c258-41db-a384-6728c1c8647b",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "Id": "bcf70318-ade2-4dad-8fed-82c7ffb618b3"/*Signature*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "be882442-4b4c-4917-b62c-c7509517489c"/*AddNoise*/,
+      "Position": {
+        "X": 542.66077,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "7e2aba05-cade-4872-aa0e-bbefef8801d6"/*DrawLines*/,
+      "Position": {
+        "X": 692.66077,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "c346850b-5def-4564-80f8-8a2d0290aa29"/*LinePoints*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "3eb87ef2-edac-4f84-9107-6479e5b8692a"/*RenderTarget*/,
+      "Position": {
+        "X": 992.66077,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "7ed45b7b-565e-432b-9bdd-89403538d202"/*LinearGradient*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 770.36163
+      }
+    },
+    {
+      "ChildId": "eafa29d7-d2b9-49db-9645-b55650c087c1"/*Floor*/,
+      "Position": {
+        "X": 242.66077,
+        "Y": 597.36163
+      }
+    },
+    {
+      "ChildId": "49b69f5d-5e37-4c80-8372-ff149857408f"/*LinePoints*/,
+      "Position": {
+        "X": 242.66077,
+        "Y": 1039.3616
+      }
+    },
+    {
+      "ChildId": "b1336fba-8687-421a-a267-63b6c78042a0"/*AddNoise*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 1039.3616
+      }
+    },
+    {
+      "ChildId": "834fe563-234b-490f-8625-8bc3021eda8c"/*DrawLines*/,
+      "Position": {
+        "X": 692.66077,
+        "Y": 1039.3616
+      }
+    },
+    {
+      "ChildId": "02193489-ccc8-4898-98a0-c2da6dcdafa2"/*TransformPoints*/,
+      "Position": {
+        "X": 542.66077,
+        "Y": 1039.3616
+      }
+    },
+    {
+      "ChildId": "31b88880-3fbb-43a0-87e1-72b1afb75043"/*LinearGradient*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 1238.3616
+      }
+    },
+    {
+      "ChildId": "2cebaf81-1b36-44b9-9c2c-c52edc14e692"/*AnimValue*/,
+      "Position": {
+        "X": -294.80817,
+        "Y": 714.75604
+      }
+    },
+    {
+      "ChildId": "98cd0f14-6d2f-4c3c-a3b1-a0be475b0288"/*Counter*/,
+      "Position": {
+        "X": 92.66077,
+        "Y": 597.36163
+      }
+    },
+    {
+      "ChildId": "a47457cc-42e8-4672-9960-ba2fc41eb834"/*Group*/,
+      "Position": {
+        "X": 842.66077,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "e5fc1969-9aac-4933-adb5-03eb494b9af3"/*BlendColors*/,
+      "Position": {
+        "X": 692.66077,
+        "Y": 1487.3616
+      }
+    },
+    {
+      "ChildId": "e9860125-7911-4e8a-bd8a-6c109d20073c"/*Lerp*/,
+      "Position": {
+        "X": -57.339233,
+        "Y": 810.36163
+      }
+    },
+    {
+      "ChildId": "b28d1b5d-68ab-49f6-8673-4753c4e29d79"/*Pow*/,
+      "Position": {
+        "X": 542.66077,
+        "Y": 1487.3616
+      }
+    },
+    {
+      "ChildId": "c8836637-0397-4b10-8e80-56d76b957044"/*Blend*/,
+      "Position": {
+        "X": 542.66077,
+        "Y": 770.36163
+      }
+    },
+    {
+      "ChildId": "073013a0-5aa1-49c4-87c4-7c60bf2dca4e"/*LinearGradient*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 956.36163
+      }
+    },
+    {
+      "ChildId": "497f660e-1602-418f-aca9-fbe9d0738c31"/*Blend*/,
+      "Position": {
+        "X": 542.66077,
+        "Y": 1238.3616
+      }
+    },
+    {
+      "ChildId": "9bfe23a1-f496-4d45-9d2b-1bbf54817149"/*LinearGradient*/,
+      "Position": {
+        "X": 392.66077,
+        "Y": 1404.3616
+      }
+    },
+    {
+      "ChildId": "0c4ce7c1-d2e9-440b-a306-e17cf2e87f35"/*Layer2d*/,
+      "Position": {
+        "X": 1292.6608,
+        "Y": 514.36163
+      }
+    },
+    {
+      "ChildId": "41f156fa-a51c-412f-986f-2034eee1c95e"/*Glow*/,
+      "Position": {
+        "X": 1142.6608,
+        "Y": 514.36163
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "c28e29ba-27a2-40ef-b2eb-ebabfe63518f"/*Output*/,
+      "Position": {
+        "X": 1460.0,
+        "Y": 386.5
+      }
+    }
+  ]
+}

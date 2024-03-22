@@ -1,0 +1,79 @@
+{
+  "Id": "7d981675-e0c6-4f44-975a-1c884d62ab76"/*template*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "3743ce25-49ca-427d-b9a8-186fe21e573b"/*Execute*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "2872920e-e9b0-43aa-b6f5-379aef6f5d89"/*RenderTarget*/,
+      "Position": {
+        "X": 300.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "ba6ce9f4-bd1d-4444-af90-2c1a08910087"/*postfx*/,
+      "Position": {
+        "X": 450.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "beb27e6f-118c-4ee6-ad40-cbfab6253097"/*figure*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 43.0
+      }
+    },
+    {
+      "ChildId": "237656c8-3a4e-469c-8876-25a78a16d483"/*background*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "7be1392f-01ca-4d0a-b005-a80f149bf36d"/*message*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 86.0
+      }
+    },
+    {
+      "ChildId": "77a073ce-1854-40c3-bbd6-0e11058fba53"/*Layer2d*/,
+      "Position": {
+        "X": 592.8053,
+        "Y": 146.96338
+      }
+    },
+    {
+      "ChildId": "515a3c58-50fc-4ed9-bf65-229ba3349f48"/*TimeClip*/,
+      "Position": {
+        "X": 734.82904,
+        "Y": 134.38834
+      }
+    },
+    {
+      "ChildId": "f2a574ab-dbe2-4846-8ebe-26df6a7f5c25"/*RenderTarget*/,
+      "Position": {
+        "X": 863.13477,
+        "Y": 160.14133
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "c5e95f33-867b-4d68-aa86-46cda3f20b64"/*Output*/,
+      "Position": {
+        "X": 860.0,
+        "Y": 54.5
+      }
+    }
+  ]
+}
