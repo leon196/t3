@@ -194,36 +194,71 @@
     {
       "ChildId": "d758dc14-d4bf-4976-87b0-ef8e157c95b5"/*SceneWasp*/,
       "Position": {
-        "X": 459.28455,
-        "Y": -716.9165
+        "X": 412.39185,
+        "Y": -590.9165
       }
     },
     {
       "ChildId": "ab15b576-c5ec-47fe-8705-00f9068d488b"/*Wasp XRAY*/,
       "Position": {
-        "X": 609.28455,
-        "Y": -716.9165
+        "X": 562.39185,
+        "Y": -590.9165
       }
     },
     {
       "ChildId": "8e196eb1-e1f4-4d33-a778-024b8647d683"/*Execute*/,
       "Position": {
-        "X": 759.28455,
+        "X": 712.39185,
         "Y": -716.9165
       }
     },
     {
       "ChildId": "d563eee4-5ac5-4e2e-a23d-e01186788ee4"/*SceneWaspDither*/,
       "Position": {
-        "X": 459.28455,
-        "Y": -653.9165
+        "X": 412.39185,
+        "Y": -527.9165
       }
     },
     {
       "ChildId": "3e54b6b2-6810-4e4a-9d1c-951c8aef6c99"/*Wasp Dither*/,
       "Position": {
-        "X": 609.28455,
+        "X": 562.39185,
+        "Y": -527.9165
+      }
+    },
+    {
+      "ChildId": "6d5cfd50-c4d6-4e0f-9f91-6c0ef02d898a"/*SceneFluff*/,
+      "Position": {
+        "X": 412.39185,
         "Y": -653.9165
+      }
+    },
+    {
+      "ChildId": "d2eaf7c1-71c2-4d0f-ade0-826b6fde7fdf"/*Fluff*/,
+      "Position": {
+        "X": 562.39185,
+        "Y": -653.9165
+      }
+    },
+    {
+      "ChildId": "e6b9217f-711a-4a8f-8018-aa62ea75f4b6"/*Execute*/,
+      "Position": {
+        "X": 865.1052,
+        "Y": -937.6044
+      }
+    },
+    {
+      "ChildId": "c0d32cf7-5950-40bb-92ca-201f0f1c169d"/*SceneRedTribal*/,
+      "Position": {
+        "X": 412.39185,
+        "Y": -716.9165
+      }
+    },
+    {
+      "ChildId": "c7037049-b82a-4e38-918c-6d6e96ef558d"/*Red Tribal*/,
+      "Position": {
+        "X": 562.39185,
+        "Y": -716.9165
       }
     }
   ],

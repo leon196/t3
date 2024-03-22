@@ -1,0 +1,94 @@
+{
+  "Id": "601846cd-5934-4c40-96b4-a730e7f71eb6"/*PatternTribal*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "310e4335-80d8-4c7b-b29a-8fcbde5e2790"/*Phase*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "InputId": "8e62a87c-0c36-42d5-8e79-b5de111a781f"/*Scale*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "65a4d2a7-97a4-41cd-86e4-b321c5986f50"/*WarpZ*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
+    },
+    {
+      "InputId": "9bf9a9df-315c-4146-ab80-b1335ad328bb"/*Offset*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 135.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "0f592d59-2ee8-454b-834a-0c1fa620e2fa"/*FractalNoise*/,
+      "Position": {
+        "X": 202.56592,
+        "Y": 0.26083374
+      }
+    },
+    {
+      "ChildId": "7cab8891-abc8-4eac-8e6c-b976bd8a0160"/*Layer2d*/,
+      "Position": {
+        "X": 806.1972,
+        "Y": 52.79117
+      }
+    },
+    {
+      "ChildId": "3042afde-25f6-4463-b35f-98083207a842"/*RemapColor*/,
+      "Position": {
+        "X": 535.99414,
+        "Y": 20.605652
+      }
+    },
+    {
+      "ChildId": "ad5389e7-4c2d-4460-904e-0d98624cb177"/*LinearGradient*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 253.6672
+      }
+    },
+    {
+      "ChildId": "b29c897f-98b4-4325-a07e-25858b0b4a5a"/*LinearGradient*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 406.6672
+      }
+    },
+    {
+      "ChildId": "4c3597a2-4053-4ea2-a0c3-922089421c6f"/*Blend*/,
+      "Position": {
+        "X": 150.0,
+        "Y": 253.6672
+      }
+    },
+    {
+      "ChildId": "1ebeff2a-091d-4fad-acf5-28cd0e5c54b5"/*Blend*/,
+      "Position": {
+        "X": 375.09692,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "cb312fc9-d1d4-4825-a89f-2c631f25e051"/*Output*/,
+      "Position": {
+        "X": 1216.1973,
+        "Y": 214.8336
+      }
+    }
+  ]
+}
