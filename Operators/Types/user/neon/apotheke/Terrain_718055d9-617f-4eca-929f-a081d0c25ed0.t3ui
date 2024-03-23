@@ -6,22 +6,22 @@
     {
       "ChildId": "ff8022e9-956c-4049-a44d-e808132577f2"/*LinePoints*/,
       "Position": {
-        "X": 0.0,
-        "Y": 40.0
+        "X": -150.0,
+        "Y": 402.0
       }
     },
     {
       "ChildId": "3b2583fc-0161-4b26-ac83-424f136314d7"/*RepeatAtGPoints*/,
       "Position": {
-        "X": 150.0,
-        "Y": 40.0
+        "X": 0.0,
+        "Y": 402.0
       }
     },
     {
       "ChildId": "8bdde070-9570-4c27-9d4b-c8418ffaea0f"/*LinePoints*/,
       "Position": {
-        "X": 0.0,
-        "Y": 83.0
+        "X": -150.0,
+        "Y": 445.0
       }
     },
     {
@@ -55,29 +55,29 @@
     {
       "ChildId": "9b08c2b3-bb64-4e8c-a12f-c5669ab758f6"/*TransformPoints*/,
       "Position": {
-        "X": 450.0,
-        "Y": 40.0
+        "X": 300.0,
+        "Y": 402.0
       }
     },
     {
       "ChildId": "0c81dd05-c80a-44dd-aff7-cf8bd18e86da"/*SamplePointAttributes*/,
       "Position": {
-        "X": 300.0,
-        "Y": 40.0
+        "X": 150.0,
+        "Y": 402.0
       }
     },
     {
       "ChildId": "ad5aa717-6135-4ac9-b9b3-ae2838c16bb5"/*FractalNoise*/,
       "Position": {
-        "X": 150.0,
-        "Y": 256.0
+        "X": 0.0,
+        "Y": 618.0
       }
     },
     {
       "ChildId": "d4693b66-23c8-4688-8802-8db2511e892d"/*FilterPoints*/,
       "Position": {
-        "X": 600.0,
-        "Y": 362.0
+        "X": 450.0,
+        "Y": 402.0
       }
     },
     {
@@ -97,8 +97,8 @@
     {
       "ChildId": "add135de-1e1a-4644-91a6-e0ba666428ce"/*DrawLines*/,
       "Position": {
-        "X": 1018.0575,
-        "Y": 251.06104
+        "X": 900.0,
+        "Y": 319.0
       }
     },
     {
@@ -111,8 +111,8 @@
     {
       "ChildId": "6ef2d6c3-b13b-406e-8e44-6d7d5e585280"/*DrawPoints*/,
       "Position": {
-        "X": 1123.0005,
-        "Y": 397.1338
+        "X": 900.0,
+        "Y": 471.0
       }
     },
     {
@@ -125,8 +125,8 @@
     {
       "ChildId": "267cf9f5-0194-4df5-9db6-e45d8dea221a"/*LinePoints*/,
       "Position": {
-        "X": 693.24927,
-        "Y": 243.76855
+        "X": 600.0,
+        "Y": 319.0
       }
     }
   ],

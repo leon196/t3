@@ -153,15 +153,57 @@
     {
       "ChildId": "017f8cee-12fa-4023-af51-5820d75b9d31"/*Text*/,
       "Position": {
-        "X": 2250.0,
-        "Y": 664.0
+        "X": 2016.928,
+        "Y": 714.5137
       }
     },
     {
       "ChildId": "9978f85d-440c-4ce4-9de1-1378baa0fed6"/*Transform*/,
       "Position": {
-        "X": 2400.0,
-        "Y": 664.0
+        "X": 2166.928,
+        "Y": 714.5137
+      }
+    },
+    {
+      "ChildId": "44804c97-e715-4220-87ae-3b328161b502"/*Signature*/,
+      "Position": {
+        "X": 1263.8008,
+        "Y": 1000.49744
+      }
+    },
+    {
+      "ChildId": "db357c31-bee0-4f9c-9b5c-97ba56d07fbf"/*Execute*/,
+      "Position": {
+        "X": 2325.9878,
+        "Y": 719.89453
+      }
+    },
+    {
+      "ChildId": "33831ad5-ad9f-4957-97c1-e19ff57fb689"/*Transform*/,
+      "Position": {
+        "X": 2431.502,
+        "Y": 968.21936
+      }
+    },
+    {
+      "ChildId": "8616e2ac-f427-4a09-9515-548bd5e81e86"/*RenderTarget*/,
+      "Position": {
+        "X": 1413.8008,
+        "Y": 1000.49744
+      }
+    },
+    {
+      "ChildId": "c726e81c-da2d-4d2b-9177-e559df647333"/*Layer2d*/,
+      "Position": {
+        "X": 2093.4126,
+        "Y": 995.5727
+      }
+    },
+    {
+      "ChildId": "a8bcb346-1886-42a9-a156-477345cbbe24"/*FakeLight*/,
+      "Position": {
+        "X": 1921.8942,
+        "Y": 1111.909
       }
     }
   ],

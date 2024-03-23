@@ -1,7 +1,15 @@
 {
   "Id": "bcf70318-ade2-4dad-8fed-82c7ffb618b3"/*Signature*/,
   "Description": "",
-  "InputUis": [],
+  "InputUis": [
+    {
+      "InputId": "4659279f-231f-46bb-a4ad-2d73a378900c"/*Size*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    }
+  ],
   "SymbolChildUis": [
     {
       "ChildId": "be882442-4b4c-4917-b62c-c7509517489c"/*AddNoise*/,
@@ -27,8 +35,8 @@
     {
       "ChildId": "3eb87ef2-edac-4f84-9107-6479e5b8692a"/*RenderTarget*/,
       "Position": {
-        "X": 992.66077,
-        "Y": 514.36163
+        "X": 1029.3575,
+        "Y": 761.359
       }
     },
     {
@@ -153,15 +161,15 @@
     {
       "ChildId": "0c4ce7c1-d2e9-440b-a306-e17cf2e87f35"/*Layer2d*/,
       "Position": {
-        "X": 1292.6608,
-        "Y": 514.36163
+        "X": 1329.3575,
+        "Y": 761.359
       }
     },
     {
       "ChildId": "41f156fa-a51c-412f-986f-2034eee1c95e"/*Glow*/,
       "Position": {
-        "X": 1142.6608,
-        "Y": 514.36163
+        "X": 1179.3575,
+        "Y": 761.359
       }
     }
   ],

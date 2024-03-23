@@ -1,0 +1,184 @@
+{
+  "Id": "3c4f0ee1-57ea-4244-af83-83eb4ddbe354"/*SceneEpidermic*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "5f6d691a-321b-4648-ae4f-141a46c85caa"/*QuadMesh*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "5018d84f-d09d-4163-b843-c8ad93247311"/*DisplaceMeshNoise*/,
+      "Position": {
+        "X": 299.99988,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "6101cc12-a120-48db-bb9e-762c8084434e"/*DrawMesh*/,
+      "Position": {
+        "X": 1049.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "5e13a44c-fcfa-431d-babb-8c49079b61be"/*SetMaterial*/,
+      "Position": {
+        "X": 1199.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "fda366ac-5a85-4137-8de2-8aeb1e8b242c"/*DisplaceMeshNoise*/,
+      "Position": {
+        "X": 449.99988,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "e7f9cb5b-6731-4415-bcf4-502065396959"/*Accumulator*/,
+      "Position": {
+        "X": 149.99988,
+        "Y": 126.0
+      }
+    },
+    {
+      "ChildId": "b6769896-7bdf-47bd-8ba6-75e8fd090dfa"/*SetPointLight*/,
+      "Position": {
+        "X": 1349.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "9787f2e1-b667-4231-942c-e2d4dfd99b5e"/*SelectVertices*/,
+      "Position": {
+        "X": 149.99988,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "8870d4a1-d09a-4b5e-83ba-e7c935faee64"/*TransformMesh*/,
+      "Position": {
+        "X": 899.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "95393834-0241-4d40-a91c-7541470ec693"/*SelectVertices*/,
+      "Position": {
+        "X": 599.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "903eecb1-f7d4-4c25-825d-19ba5a6129a8"/*DisplaceMeshNoise*/,
+      "Position": {
+        "X": 749.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "c414e4b8-4249-49e7-b0e4-d99f51ce6115"/*Accumulator*/,
+      "Position": {
+        "X": 599.9999,
+        "Y": 229.0
+      }
+    },
+    {
+      "ChildId": "40ab1081-8e73-468e-9f32-8cecd2b61bfd"/*RenderTarget*/,
+      "Position": {
+        "X": 1799.9999,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "7615c792-baaf-4f32-826e-80559db02dc7"/*Layer2d*/,
+      "Position": {
+        "X": 2100.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "0cc37820-f7ce-4ef7-80af-02e97bbb5e60"/*Execute*/,
+      "Position": {
+        "X": 2250.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "80d1468a-15ed-49ce-9b28-b50a216e660a"/*SSAO*/,
+      "Position": {
+        "X": 1949.9999,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "6ee4ba17-7d1d-413b-af17-688c4a1b8dc1"/*RenderTarget*/,
+      "Position": {
+        "X": 1049.9999,
+        "Y": 442.0
+      }
+    },
+    {
+      "ChildId": "ac454555-40ec-4ab8-80f7-c82f13f5a827"/*Text*/,
+      "Position": {
+        "X": 749.9999,
+        "Y": 442.0
+      }
+    },
+    {
+      "ChildId": "f7768a21-9e41-4ef7-a90f-0f2274199c5e"/*Transform*/,
+      "Position": {
+        "X": 899.9999,
+        "Y": 442.0
+      }
+    },
+    {
+      "ChildId": "2eee5559-b3bd-4d46-a2bd-e60fe560f994"/*DrawScreenQuad*/,
+      "Position": {
+        "X": 1499.9999,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "fc5ea9a4-da8b-4a84-be93-62e809d1e02a"/*Blob*/,
+      "Position": {
+        "X": 1349.9999,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "39381e2b-9293-49c8-8817-0c691340a16e"/*Execute*/,
+      "Position": {
+        "X": 1649.9999,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "ad3bfb11-2aa7-4512-a87f-1f4631ea7ccb"/*Camera*/,
+      "Position": {
+        "X": 1499.9999,
+        "Y": 63.0
+      }
+    },
+    {
+      "ChildId": "a5b3e63d-90c7-473b-b5f1-808b298a5aa5"/*PerlinNoise3*/,
+      "Position": {
+        "X": 1349.9999,
+        "Y": 565.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "a645716c-c9c5-488b-a814-8b2ae1a194cc"/*Output*/,
+      "Position": {
+        "X": 2660.0,
+        "Y": 294.0
+      }
+    }
+  ]
+}

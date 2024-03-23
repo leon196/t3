@@ -160,43 +160,78 @@
     {
       "ChildId": "e4a20f53-a618-4f66-b4cf-c6a1358438e7"/*TextSprites*/,
       "Position": {
-        "X": 1050.0,
-        "Y": 601.0
+        "X": 567.06134,
+        "Y": 700.02527
       }
     },
     {
       "ChildId": "e5d1256c-dd4b-4d9f-8873-02c6d1fb95ad"/*RadialPoints*/,
       "Position": {
-        "X": 1050.0,
-        "Y": 558.0
+        "X": 567.06134,
+        "Y": 657.02527
       }
     },
     {
       "ChildId": "ce48146d-29e1-48e8-800c-5efdc5725e0b"/*DrawPointSprites*/,
       "Position": {
-        "X": 1200.0,
-        "Y": 558.0
+        "X": 717.06134,
+        "Y": 657.02527
       }
     },
     {
       "ChildId": "94a43b97-cd53-4f4c-b98f-7eb68bf32704"/*Transform*/,
       "Position": {
-        "X": 1350.0,
-        "Y": 558.0
+        "X": 867.06134,
+        "Y": 657.02527
       }
     },
     {
       "ChildId": "e712f9f9-32e4-4f90-a147-2cff71446d11"/*Rotation*/,
       "Position": {
-        "X": 1200.0,
-        "Y": 664.0
+        "X": 717.06134,
+        "Y": 763.02527
       }
     },
     {
       "ChildId": "daca5ac3-2f3f-4438-9968-a6580141ca7e"/*Accumulator*/,
       "Position": {
-        "X": 1050.0,
-        "Y": 664.0
+        "X": 567.06134,
+        "Y": 763.02527
+      }
+    },
+    {
+      "ChildId": "2c6ff5f2-de20-46dc-8c22-662f4cf1acdd"/*Signature*/,
+      "Position": {
+        "X": 336.9603,
+        "Y": 926.46387
+      }
+    },
+    {
+      "ChildId": "7db4947a-1d07-4dbe-b6a3-143e16c00d3c"/*Transform*/,
+      "Position": {
+        "X": 1371.3934,
+        "Y": 659.8574
+      }
+    },
+    {
+      "ChildId": "26b3feeb-6bb2-493b-9986-48acff6b2812"/*Execute*/,
+      "Position": {
+        "X": 1074.24,
+        "Y": 669.44763
+      }
+    },
+    {
+      "ChildId": "1ed6f69f-caa1-4509-a50b-4de267a08155"/*RenderTarget*/,
+      "Position": {
+        "X": 533.48737,
+        "Y": 981.3086
+      }
+    },
+    {
+      "ChildId": "36513877-7cba-4cdd-9bfc-a9e62b0582a5"/*Layer2d*/,
+      "Position": {
+        "X": 752.8664,
+        "Y": 1004.16064
       }
     }
   ],
