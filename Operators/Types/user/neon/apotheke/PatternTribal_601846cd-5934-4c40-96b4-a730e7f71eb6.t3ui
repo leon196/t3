@@ -78,7 +78,14 @@
       "ChildId": "1ebeff2a-091d-4fad-acf5-28cd0e5c54b5"/*Blend*/,
       "Position": {
         "X": 375.09692,
-        "Y": 0.0
+        "Y": 144.07959
+      }
+    },
+    {
+      "ChildId": "3abeede2-4642-44c3-adf5-c9bc06828b82"/*Blob*/,
+      "Position": {
+        "X": 189.75598,
+        "Y": 462.648
       }
     }
   ],

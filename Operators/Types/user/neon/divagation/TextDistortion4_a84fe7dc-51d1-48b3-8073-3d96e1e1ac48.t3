@@ -10,33 +10,6 @@
   ],
   "Children": [
     {
-      "Id": "8154b9b5-7779-4b92-945e-d2e6979e8ec0"/*TextPoints*/,
-      "SymbolId": "bdb41a6d-e225-4a8a-8348-820d45153e3f",
-      "InputValues": [
-        {
-          "Id": "7432f063-9957-47f7-8250-c3e6456ec7c6"/*InputText*/,
-          "Type": "System.String",
-          "Value": "DIVAGATION"
-        },
-        {
-          "Id": "abe3f777-a33b-4e39-9eee-07cc729acf32"/*InputFont*/,
-          "Type": "System.String",
-          "Value": "Resources\\fonts\\Oswald-Bold.ttf"
-        },
-        {
-          "Id": "12467649-9036-4b47-9868-2b4436580227"/*Size*/,
-          "Type": "System.Single",
-          "Value": 0.26
-        },
-        {
-          "Id": "02163610-108e-4154-a3b2-84b65df852fa"/*VerticalAlign*/,
-          "Type": "System.Int32",
-          "Value": 1
-        }
-      ],
-      "Outputs": []
-    },
-    {
       "Id": "c5ee688d-65e3-4f3e-b179-d63654b3a885"/*ResamplePoints*/,
       "SymbolId": "0b300208-38a4-4cdb-800a-0da6c22e58d8",
       "InputValues": [
@@ -345,12 +318,6 @@
       "SourceSlotId": "762ee8f9-52b5-4a0e-aa1e-b41fbb6d7d22",
       "TargetParentOrChildId": "aae3bc54-6a1f-415b-85e0-0353d65b00f2",
       "TargetSlotId": "7773837e-104a-4b3d-a41f-cadbd9249af2"
-    },
-    {
-      "SourceParentOrChildId": "8154b9b5-7779-4b92-945e-d2e6979e8ec0",
-      "SourceSlotId": "c65da6e8-3eb7-4152-9b79-34fcaaa31807",
-      "TargetParentOrChildId": "c5ee688d-65e3-4f3e-b179-d63654b3a885",
-      "TargetSlotId": "6b04307f-4131-464f-b1dc-2de1e8ec17f9"
     },
     {
       "SourceParentOrChildId": "3c0194a9-5a3c-4791-8713-59f9fceb5581",

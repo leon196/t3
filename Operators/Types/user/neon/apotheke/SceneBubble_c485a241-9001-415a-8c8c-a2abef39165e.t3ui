@@ -189,6 +189,55 @@
         "X": 750.00006,
         "Y": 145.0
       }
+    },
+    {
+      "ChildId": "ffe90602-2e00-4269-a872-2dc69a92759f"/*Subtitle*/,
+      "Position": {
+        "X": 1364.3,
+        "Y": 297.25336
+      }
+    },
+    {
+      "ChildId": "d999d24f-f166-4cf0-9330-421160d2caf9"/*RenderTarget*/,
+      "Position": {
+        "X": 1625.7351,
+        "Y": 8.033997
+      }
+    },
+    {
+      "ChildId": "befe1942-1497-4d4b-b683-88ed0bc3df41"/*Layer2d*/,
+      "Position": {
+        "X": 1671.0912,
+        "Y": 94.14484
+      }
+    },
+    {
+      "ChildId": "4a1ccfa2-b84f-43ed-b887-0dab66aa44fe"/*Execute*/,
+      "Position": {
+        "X": 1635.7966,
+        "Y": 232.21075
+      }
+    },
+    {
+      "ChildId": "ad981494-e255-436e-b223-a44696ecfe48"/*RepeatMeshAtPoints*/,
+      "Position": {
+        "X": 764.6684,
+        "Y": 322.46008
+      }
+    },
+    {
+      "ChildId": "cd018a8f-5657-4ded-9783-354a113bd9fd"/*SphereMesh*/,
+      "Position": {
+        "X": 600.00006,
+        "Y": 318.0
+      }
+    },
+    {
+      "ChildId": "83a4f14f-769d-4186-a888-b898d3375308"/*DrawMesh*/,
+      "Position": {
+        "X": 951.1725,
+        "Y": 274.61526
+      }
     }
   ],
   "OutputUis": [

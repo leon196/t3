@@ -11,7 +11,7 @@
         {
           "Id": "f1f1be0e-d5bc-4940-bbc1-88bfa958f0e1"/*InputText*/,
           "Type": "System.String",
-          "Value": "ANTIHISTAMINE"
+          "Value": "SOME\nONE\n"
         }
       ],
       "Outputs": []
@@ -24,9 +24,9 @@
           "Id": "b4a8c16d-5a0f-4867-ae03-92a675abe709"/*Translation*/,
           "Type": "System.Numerics.Vector3",
           "Value": {
-            "X": -0.58,
-            "Y": 0.0,
-            "Z": 0.0
+            "X": -0.43,
+            "Y": -0.14190711,
+            "Z": 0.19608694
           }
         },
         {
@@ -41,7 +41,7 @@
         {
           "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
           "Type": "System.Single",
-          "Value": 5.09
+          "Value": 7.8
         }
       ],
       "Outputs": []
@@ -94,7 +94,7 @@
             "X": 1.0,
             "Y": 1.0,
             "Z": 1.0,
-            "W": 0.96
+            "W": 0.97
           }
         }
       ],
@@ -246,6 +246,11 @@
       "SymbolId": "ec0675d7-6b72-4b15-b141-80bdd2367cd8",
       "InputValues": [
         {
+          "Id": "82384eba-1d7a-41c8-a703-9184c961d766"/*Amount*/,
+          "Type": "System.Single",
+          "Value": 1.59
+        },
+        {
           "Id": "270bcf23-35ee-4c4f-aae5-192435b1aee3"/*Position*/,
           "Type": "System.Numerics.Vector3",
           "Value": {
@@ -286,7 +291,7 @@
         {
           "Id": "951a1792-e607-4595-b211-97be7d27694c"/*Count*/,
           "Type": "System.Int32",
-          "Value": 13
+          "Value": 7
         },
         {
           "Id": "178c1df1-5326-42d1-9251-8e2c8ad7965b"/*Center*/,
@@ -318,7 +323,7 @@
         {
           "Id": "f2dd87b1-7f37-4b02-871b-b2e35972f246"/*Text*/,
           "Type": "System.String",
-          "Value": "ANTIHISTAMINE"
+          "Value": "SOMEONE"
         },
         {
           "Id": "1cde902d-5eaa-4144-b579-85f54717356b"/*Color*/,
@@ -529,6 +534,18 @@
           "IsDisabled": true
         }
       ]
+    },
+    {
+      "Id": "ee3d60cb-d148-491b-a055-36ad5f478c91"/*Subtitle*/,
+      "SymbolId": "b1128ae8-1fa6-476f-a958-eb73047a2b32",
+      "InputValues": [
+        {
+          "Id": "7638501e-872d-4e4d-af7c-e4b3ff76748b"/*InputString*/,
+          "Type": "System.String",
+          "Value": "finnaly found someone"
+        }
+      ],
+      "Outputs": []
     }
   ],
   "Connections": [
@@ -733,6 +750,12 @@
     {
       "SourceParentOrChildId": "bd98e84a-86b3-4f8b-aac1-b25b4616692e",
       "SourceSlotId": "977ca2f4-cddb-4b9a-82b2-ff66453bbf9b",
+      "TargetParentOrChildId": "fbc73db3-13d6-4387-a41f-2a82bfe77f57",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "ee3d60cb-d148-491b-a055-36ad5f478c91",
+      "SourceSlotId": "2c74c341-e5ba-4b13-a2f0-e8ab31d55294",
       "TargetParentOrChildId": "fbc73db3-13d6-4387-a41f-2a82bfe77f57",
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
     },

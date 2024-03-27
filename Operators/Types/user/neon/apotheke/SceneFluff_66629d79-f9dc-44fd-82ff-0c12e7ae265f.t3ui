@@ -205,6 +205,34 @@
         "X": 1921.8942,
         "Y": 1111.909
       }
+    },
+    {
+      "ChildId": "e5846187-774f-4811-9fb2-cdf718543905"/*Subtitle*/,
+      "Position": {
+        "X": 2397.1985,
+        "Y": 153.14323
+      }
+    },
+    {
+      "ChildId": "34a66cb1-131a-4707-a40c-51ebdafbb630"/*Blur*/,
+      "Position": {
+        "X": 2221.8206,
+        "Y": 274.82278
+      }
+    },
+    {
+      "ChildId": "f8349846-dbff-475b-bd07-05c32906b554"/*BlendWithMask*/,
+      "Position": {
+        "X": 2386.8206,
+        "Y": 320.34003
+      }
+    },
+    {
+      "ChildId": "68f2107c-caef-4937-a0af-bccfb60dfb9e"/*Blob*/,
+      "Position": {
+        "X": 2234.622,
+        "Y": 417.06415
+      }
     }
   ],
   "OutputUis": [

@@ -1,0 +1,95 @@
+{
+  "Id": "b1128ae8-1fa6-476f-a958-eb73047a2b32"/*Subtitle*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "7638501e-872d-4e4d-af7c-e4b3ff76748b"/*InputString*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      },
+      "Usage": "Default"
+    },
+    {
+      "InputId": "5054a046-2e0d-4285-be6c-3c02901d39cd"/*Factor*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "e7658bf2-f558-480c-8330-d8e2a34bde88"/*Text*/,
+      "Position": {
+        "X": 318.90945,
+        "Y": -61.083282
+      }
+    },
+    {
+      "ChildId": "c2f330fb-04c2-4668-8689-b0631a3d0d0b"/*BuildStringWithClipTime*/,
+      "Position": {
+        "X": 21.623474,
+        "Y": -110.04915
+      }
+    },
+    {
+      "ChildId": "4f2f4e20-f649-4f35-9942-54dd8f6610a0"/*TextSprites*/,
+      "Position": {
+        "X": 178.33707,
+        "Y": 138.96893
+      }
+    },
+    {
+      "ChildId": "58219af3-920c-4d44-a937-36cb9187f9bb"/*DrawPointSprites*/,
+      "Position": {
+        "X": 316.34003,
+        "Y": 116.34552
+      }
+    },
+    {
+      "ChildId": "907dd877-f73d-4f04-b591-7dae77a027ff"/*Position*/,
+      "Position": {
+        "X": 53.529938,
+        "Y": 48.458862
+      }
+    },
+    {
+      "ChildId": "57c671ac-d0ed-477f-a29d-69ca16f52f8c"/*DrawBillboards*/,
+      "Position": {
+        "X": 253.3883,
+        "Y": 287.06537
+      }
+    },
+    {
+      "ChildId": "8d6d6682-8e12-4379-b295-feddc090683a"/*Execute*/,
+      "Position": {
+        "X": 450.5724,
+        "Y": 190.24878
+      }
+    },
+    {
+      "ChildId": "4e93adde-b106-434f-9d13-f0da8da4cd31"/*RenderTarget*/,
+      "Position": {
+        "X": 116.17704,
+        "Y": 346.6558
+      }
+    },
+    {
+      "ChildId": "3eee61c5-b4da-4bf0-943c-d229ddf64f47"/*WriteText*/,
+      "Position": {
+        "X": 17.47123,
+        "Y": 151.89194
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "2c74c341-e5ba-4b13-a2f0-e8ab31d55294"/*Output*/,
+      "Position": {
+        "X": 572.80774,
+        "Y": 38.294037
+      }
+    }
+  ]
+}

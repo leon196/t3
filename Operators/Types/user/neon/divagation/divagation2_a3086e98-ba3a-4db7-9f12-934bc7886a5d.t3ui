@@ -137,13 +137,6 @@
       }
     },
     {
-      "ChildId": "bc1e081d-032f-4afd-938b-ca0f18e8c0a8"/*TextPoints*/,
-      "Position": {
-        "X": -2717.5874,
-        "Y": 823.5681
-      }
-    },
-    {
       "ChildId": "2f5f847e-af4a-4369-8ee4-a792df343c08"/*ListToBuffer*/,
       "Position": {
         "X": -2567.5874,

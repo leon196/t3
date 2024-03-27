@@ -12,13 +12,6 @@
   ],
   "SymbolChildUis": [
     {
-      "ChildId": "1511875d-c23f-4825-8b61-d89464487fe0"/*TextPoints*/,
-      "Position": {
-        "X": 19.335938,
-        "Y": -9.4953
-      }
-    },
-    {
       "ChildId": "c679569b-f25d-421e-b55f-8601bbbd7303"/*ResamplePoints*/,
       "Position": {
         "X": 180.96924,

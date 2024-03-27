@@ -1,0 +1,34 @@
+{
+  "Name": "Test",
+  "Id": "26fcfdcc-8fbe-45a8-b9f5-e1dbf85180f2",
+  "Namespace": "user.neon.apotheke",
+  "Inputs": [],
+  "Children": [
+    {
+      "Id": "afa657f7-562d-4ab4-8ab2-95968f1ad80e"/*Blob*/,
+      "SymbolId": "27b0e1af-cb2e-4603-83f9-5c9b042d87e6",
+      "InputValues": [],
+      "Outputs": []
+    },
+    {
+      "Id": "51a883e8-03f2-491f-938c-7d0012d6dbb0"/*Layer2d*/,
+      "SymbolId": "d8c5330f-59b5-4907-b845-a02def3042fa",
+      "InputValues": [],
+      "Outputs": []
+    }
+  ],
+  "Connections": [
+    {
+      "SourceParentOrChildId": "51a883e8-03f2-491f-938c-7d0012d6dbb0",
+      "SourceSlotId": "e4a8d926-7abd-4d2a-82a1-b7d140cb457f",
+      "TargetParentOrChildId": "00000000-0000-0000-0000-000000000000",
+      "TargetSlotId": "4711aa8e-216e-42c1-ba3e-c4657963a534"
+    },
+    {
+      "SourceParentOrChildId": "afa657f7-562d-4ab4-8ab2-95968f1ad80e",
+      "SourceSlotId": "b882de23-5b94-4791-af13-e195211cffb3",
+      "TargetParentOrChildId": "51a883e8-03f2-491f-938c-7d0012d6dbb0",
+      "TargetSlotId": "2a95ac54-5ef7-4d3c-a90b-ecd5b422bddc"
+    }
+  ]
+}

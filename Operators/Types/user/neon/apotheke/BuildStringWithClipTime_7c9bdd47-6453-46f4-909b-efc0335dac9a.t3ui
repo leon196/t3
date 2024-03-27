@@ -1,0 +1,95 @@
+{
+  "Id": "7c9bdd47-6453-46f4-909b-efc0335dac9a"/*BuildStringWithClipTime*/,
+  "Description": "",
+  "InputUis": [
+    {
+      "InputId": "86b83cc1-fe2e-4a22-9707-8da59d89ae5f"/*InputString*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      },
+      "Usage": "Default"
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "b1697830-2125-4ef3-a228-d16abb002456"/*StringLength*/,
+      "Position": {
+        "X": 21.535492,
+        "Y": 155.24634
+      }
+    },
+    {
+      "ChildId": "fcb382bd-0fb6-4ff8-ab16-781518d4a0a0"/*PickStringPart*/,
+      "Position": {
+        "X": 324.27792,
+        "Y": 126.57214
+      }
+    },
+    {
+      "ChildId": "2e53b0ec-5b56-4ce9-98b2-5f36a32ea4af"/*AString*/,
+      "Position": {
+        "X": 137.32834,
+        "Y": 0.0
+      }
+    },
+    {
+      "ChildId": "167c9344-eac1-4296-9c02-26ebfc01d113"/*IntToFloat*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 259.1405
+      }
+    },
+    {
+      "ChildId": "696c283a-e673-4120-9f52-223da86e6e23"/*Lerp*/,
+      "Position": {
+        "X": 318.1473,
+        "Y": 297.23352
+      }
+    },
+    {
+      "ChildId": "47edb957-de4a-490a-a1fe-95b364833eed"/*SmoothStep*/,
+      "Position": {
+        "X": 131.20932,
+        "Y": 364.2489
+      }
+    },
+    {
+      "ChildId": "3491f487-e7a1-4a3e-9b5f-a4cf4da407c2"/*ClipTime*/,
+      "Position": {
+        "X": -144.18604,
+        "Y": 437.6834
+      }
+    },
+    {
+      "ChildId": "71665d85-5fd7-4b58-9cf5-13aa1131d617"/*FloatToInt*/,
+      "Position": {
+        "X": 318.1473,
+        "Y": 228.23352
+      }
+    },
+    {
+      "ChildId": "dc30ce05-c1c1-4cec-ae22-65a14d0ce57d"/*Add*/,
+      "Position": {
+        "X": 125.55429,
+        "Y": 264.7838
+      }
+    },
+    {
+      "ChildId": "cc7840f6-7113-4da2-b998-10efb2eafdd4"/*Remap*/,
+      "Position": {
+        "X": 76.21481,
+        "Y": 481.81726
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "612a1529-81f9-4452-a8ac-c4b9eae50bb2"/*Fragments*/,
+      "Position": {
+        "X": 734.27795,
+        "Y": 215.39386
+      }
+    }
+  ]
+}

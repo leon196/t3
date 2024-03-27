@@ -1,0 +1,30 @@
+{
+  "Id": "26fcfdcc-8fbe-45a8-b9f5-e1dbf85180f2"/*Test*/,
+  "Description": "",
+  "InputUis": [],
+  "SymbolChildUis": [
+    {
+      "ChildId": "afa657f7-562d-4ab4-8ab2-95968f1ad80e"/*Blob*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 6.13501
+      }
+    },
+    {
+      "ChildId": "51a883e8-03f2-491f-938c-7d0012d6dbb0"/*Layer2d*/,
+      "Position": {
+        "X": 175.87036,
+        "Y": 0.0
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "4711aa8e-216e-42c1-ba3e-c4657963a534"/*Output*/,
+      "Position": {
+        "X": 585.87036,
+        "Y": 18.0
+      }
+    }
+  ]
+}
