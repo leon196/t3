@@ -231,6 +231,20 @@
         "X": -540.1123,
         "Y": -64.879105
       }
+    },
+    {
+      "ChildId": "30c865ae-6b6f-4ac2-a869-2dca1e90a821"/*GetForegroundColor*/,
+      "Position": {
+        "X": -482.0485,
+        "Y": 334.01047
+      }
+    },
+    {
+      "ChildId": "0e719f48-4549-42f2-9f21-7abf83289e70"/*BlendColors*/,
+      "Position": {
+        "X": -324.5075,
+        "Y": 305.8409
+      }
     }
   ],
   "OutputUis": [

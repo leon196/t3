@@ -95,14 +95,29 @@
       "SymbolId": "0ed2bee3-641f-4b08-8685-df1506e9af3c",
       "InputValues": [
         {
-          "Id": "e14dcc43-7c18-4ed7-ad39-dfeab10e3d33"/*Roughness*/,
-          "Type": "System.Single",
-          "Value": 0.2
+          "Id": "9ff5ade2-cfa7-4616-ad89-356f3248e04f"/*BaseColor*/,
+          "Type": "System.Numerics.Vector4",
+          "Value": {
+            "X": 1.0,
+            "Y": 0.357,
+            "Z": 0.472,
+            "W": 1.0
+          }
         },
         {
-          "Id": "108ff533-f205-4989-b894-acf48e3cc1db"/*Metal*/,
+          "Id": "2c91c306-1815-4b22-a70f-746232f024d7"/*EmissiveColor*/,
+          "Type": "System.Numerics.Vector4",
+          "Value": {
+            "X": 0.282,
+            "Y": 0.0,
+            "Z": 0.013,
+            "W": 1.0
+          }
+        },
+        {
+          "Id": "e14dcc43-7c18-4ed7-ad39-dfeab10e3d33"/*Roughness*/,
           "Type": "System.Single",
-          "Value": 0.06
+          "Value": 0.59
         }
       ],
       "Outputs": []
@@ -367,7 +382,7 @@
         {
           "Id": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"/*UniformScale*/,
           "Type": "System.Single",
-          "Value": 0.26
+          "Value": 0.38
         }
       ],
       "Outputs": []
@@ -503,83 +518,42 @@
       "Outputs": []
     },
     {
-      "Id": "2c05e964-ce88-49eb-bc8f-15cee22f163d"/*BlendGradients*/,
-      "SymbolId": "b9999f07-da19-45b9-ae12-f9d0662c694c",
+      "Id": "4a61a1d4-bbfd-49f0-9c7d-09b9def0fe54"/*UniformScale*/,
+      "SymbolId": "5d7d61ae-0a41-4ffa-a51d-93bab665e7fe",
+      "Name": "UniformScale",
       "InputValues": [
         {
-          "Id": "afa38628-b616-4b06-878d-ec554050f2b0"/*GradientA*/,
-          "Type": "T3.Core.DataTypes.Gradient",
-          "Value": {
-            "Gradient": {
-              "Interpolation": "Linear",
-              "Steps": [
-                {
-                  "Id": "97a4a866-ec19-4b72-8248-5baf59b48e82",
-                  "NormalizedPosition": 0.0,
-                  "Color": {
-                    "R": 0.0,
-                    "G": 0.0,
-                    "B": 0.0,
-                    "A": 1.0
-                  }
-                },
-                {
-                  "Id": "5f666528-6e9f-4dd1-8af4-b07e8ce4b895",
-                  "NormalizedPosition": 1.0,
-                  "Color": {
-                    "R": 1.0,
-                    "G": 1.0,
-                    "B": 1.0,
-                    "A": 1.0
-                  }
-                }
-              ]
-            }
-          }
+          "Id": "7773837e-104a-4b3d-a41f-cadbd9249af2"/*Float*/,
+          "Type": "System.Single",
+          "Value": 0.38
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "936852f8-3010-4417-af3c-dad063ec2ecc"/*Lerp*/,
+      "SymbolId": "1f5294e1-9d0b-4cd5-9d65-14c8bbf59e61",
+      "InputValues": [
+        {
+          "Id": "f5904a0e-f7a6-4fd3-b8f3-8ecccd9363d7"/*A*/,
+          "Type": "System.Single",
+          "Value": 0.0
         },
         {
-          "Id": "c1856ef1-bcbe-4377-a910-e8eef7d963da"/*GradientB*/,
-          "Type": "T3.Core.DataTypes.Gradient",
-          "Value": {
-            "Gradient": {
-              "Interpolation": "Linear",
-              "Steps": [
-                {
-                  "Id": "96462dd1-0bee-41ad-9b26-a4ef16637d1e",
-                  "NormalizedPosition": 0.0,
-                  "Color": {
-                    "R": 0.0,
-                    "G": 0.0,
-                    "B": 0.0,
-                    "A": 1.0
-                  }
-                },
-                {
-                  "Id": "40deea29-af35-4808-a050-557d1422bac3",
-                  "NormalizedPosition": 0.18523663,
-                  "Color": {
-                    "R": 0.6698564,
-                    "G": 0.48609766,
-                    "B": 0.60418844,
-                    "A": 1.0
-                  }
-                },
-                {
-                  "Id": "35b2e91a-c768-45b3-84c8-de4876442323",
-                  "NormalizedPosition": 1.0,
-                  "Color": {
-                    "R": 1.0,
-                    "G": 0.18594497,
-                    "B": 0.27573532,
-                    "A": 1.0
-                  }
-                }
-              ]
-            }
-          }
-        },
+          "Id": "1aed2c36-696a-4508-a8b6-3546ca570997"/*B*/,
+          "Type": "System.Single",
+          "Value": 1.0
+        }
+      ],
+      "Outputs": []
+    },
+    {
+      "Id": "c636e947-914c-4d6f-a0c1-6838a5e80df4"/*Scale Factor*/,
+      "SymbolId": "5d7d61ae-0a41-4ffa-a51d-93bab665e7fe",
+      "Name": "Scale Factor",
+      "InputValues": [
         {
-          "Id": "c21371d6-1735-43d4-96ff-d04cbce0fec9"/*MixFactor*/,
+          "Id": "7773837e-104a-4b3d-a41f-cadbd9249af2"/*Float*/,
           "Type": "System.Single",
           "Value": 0.0
         }
@@ -631,16 +605,16 @@
       "TargetSlotId": "876f6f64-7cb4-4060-8571-e0b78b437d41"
     },
     {
-      "SourceParentOrChildId": "2c05e964-ce88-49eb-bc8f-15cee22f163d",
-      "SourceSlotId": "d457933e-6642-471e-807a-6c22008bbd0c",
-      "TargetParentOrChildId": "3fd886df-1dd4-4a37-88c0-a443d8d425cd",
-      "TargetSlotId": "c45d487b-3221-44c7-bf9e-b982a65280f6"
-    },
-    {
       "SourceParentOrChildId": "39381e2b-9293-49c8-8817-0c691340a16e",
       "SourceSlotId": "e81c99ce-fcee-4e7c-a1c7-0aa3b352b7e1",
       "TargetParentOrChildId": "40ab1081-8e73-468e-9f32-8cecd2b61bfd",
       "TargetSlotId": "4da253b7-4953-439a-b03f-1d515a78bddf"
+    },
+    {
+      "SourceParentOrChildId": "936852f8-3010-4417-af3c-dad063ec2ecc",
+      "SourceSlotId": "762ee8f9-52b5-4a0e-aa1e-b41fbb6d7d22",
+      "TargetParentOrChildId": "4a61a1d4-bbfd-49f0-9c7d-09b9def0fe54",
+      "TargetSlotId": "7773837e-104a-4b3d-a41f-cadbd9249af2"
     },
     {
       "SourceParentOrChildId": "e7f9cb5b-6731-4415-bcf4-502065396959",
@@ -691,8 +665,8 @@
       "TargetSlotId": "2a95ac54-5ef7-4d3c-a90b-ecd5b422bddc"
     },
     {
-      "SourceParentOrChildId": "3fd886df-1dd4-4a37-88c0-a443d8d425cd",
-      "SourceSlotId": "16e37306-05e1-4de6-babd-80a8d1472a2f",
+      "SourceParentOrChildId": "40ab1081-8e73-468e-9f32-8cecd2b61bfd",
+      "SourceSlotId": "7a4c4feb-be2f-463e-96c6-cd9a6bad77a2",
       "TargetParentOrChildId": "80d1468a-15ed-49ce-9b28-b50a216e660a",
       "TargetSlotId": "450023da-53fb-4e36-9936-551a2ebcce84"
     },
@@ -721,6 +695,12 @@
       "TargetSlotId": "fb86f0d6-1e5c-478f-b723-9f9462e2966c"
     },
     {
+      "SourceParentOrChildId": "c636e947-914c-4d6f-a0c1-6838a5e80df4",
+      "SourceSlotId": "f83f1835-477e-4bb6-93f0-14bf273b8e94",
+      "TargetParentOrChildId": "936852f8-3010-4417-af3c-dad063ec2ecc",
+      "TargetSlotId": "2b969154-edf6-4fa6-972c-23d27e77e356"
+    },
+    {
       "SourceParentOrChildId": "fda366ac-5a85-4137-8de2-8aeb1e8b242c",
       "SourceSlotId": "b91689eb-4274-4534-9f95-515a93c57ebe",
       "TargetParentOrChildId": "95393834-0241-4d40-a91c-7541470ec693",
@@ -743,6 +723,12 @@
       "SourceSlotId": "dd9d8718-addc-49b1-bd33-aac22b366f94",
       "TargetParentOrChildId": "e5cc0521-762b-4783-b449-fc6a66cc0c06",
       "TargetSlotId": "7638501e-872d-4e4d-af7c-e4b3ff76748b"
+    },
+    {
+      "SourceParentOrChildId": "4a61a1d4-bbfd-49f0-9c7d-09b9def0fe54",
+      "SourceSlotId": "f83f1835-477e-4bb6-93f0-14bf273b8e94",
+      "TargetParentOrChildId": "f7768a21-9e41-4ef7-a90f-0f2274199c5e",
+      "TargetSlotId": "a7b1e667-bce3-4e76-a5b1-0955c118d0fc"
     },
     {
       "SourceParentOrChildId": "ac454555-40ec-4ab8-80f7-c82f13f5a827",
@@ -814,6 +800,36 @@
             "OutEditMode": "Linear",
             "InTangentAngle": 0.0,
             "OutTangentAngle": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "InstanceId": "c636e947-914c-4d6f-a0c1-6838a5e80df4",
+      "InputId": "7773837e-104a-4b3d-a41f-cadbd9249af2",
+      "Curve": {
+        "PreCurve": "Constant",
+        "PostCurve": "Constant",
+        "Keys": [
+          {
+            "Time": 57.0,
+            "Value": 0.0,
+            "InType": "Spline",
+            "OutType": "Spline",
+            "InEditMode": "Tangent",
+            "OutEditMode": "Tangent",
+            "InTangentAngle": 0.1848892718553543,
+            "OutTangentAngle": 3.3264819254451474
+          },
+          {
+            "Time": 64.0,
+            "Value": 1.0,
+            "InType": "Spline",
+            "OutType": "Spline",
+            "InEditMode": "Tangent",
+            "OutEditMode": "Tangent",
+            "InTangentAngle": 0.4050843119621277,
+            "OutTangentAngle": -2.7365083416276654
           }
         ]
       }

@@ -193,15 +193,29 @@
     {
       "ChildId": "3fd886df-1dd4-4a37-88c0-a443d8d425cd"/*RemapColor*/,
       "Position": {
-        "X": 1706.4623,
-        "Y": -82.08856
+        "X": 1748.1652,
+        "Y": -229.6529
       }
     },
     {
-      "ChildId": "2c05e964-ce88-49eb-bc8f-15cee22f163d"/*BlendGradients*/,
+      "ChildId": "4a61a1d4-bbfd-49f0-9c7d-09b9def0fe54"/*UniformScale*/,
       "Position": {
-        "X": 1608.0217,
-        "Y": 78.77771
+        "X": 578.3168,
+        "Y": 463.61386
+      }
+    },
+    {
+      "ChildId": "936852f8-3010-4417-af3c-dad063ec2ecc"/*Lerp*/,
+      "Position": {
+        "X": 418.4798,
+        "Y": 477.8632
+      }
+    },
+    {
+      "ChildId": "c636e947-914c-4d6f-a0c1-6838a5e80df4"/*Scale Factor*/,
+      "Position": {
+        "X": 293.3709,
+        "Y": 570.89294
       }
     }
   ],
