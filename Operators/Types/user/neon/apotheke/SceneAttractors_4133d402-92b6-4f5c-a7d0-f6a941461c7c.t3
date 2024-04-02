@@ -1207,6 +1207,12 @@
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
     },
     {
+      "SourceParentOrChildId": "3a3e31e4-9dcd-44d2-971d-8d4ab44b4d63",
+      "SourceSlotId": "e4a8d926-7abd-4d2a-82a1-b7d140cb457f",
+      "TargetParentOrChildId": "4ae0e374-6254-4e92-b47c-9783e9a1d33a",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
       "SourceParentOrChildId": "364c0808-ed17-49ba-9896-32a2f571a305",
       "SourceSlotId": "9be415b6-b7f0-4b8f-8d93-c147ef8d0d44",
       "TargetParentOrChildId": "5460ae98-48b3-4dcf-b5cc-4ca1e9b4b8ad",
@@ -1251,12 +1257,6 @@
     {
       "SourceParentOrChildId": "ea805362-aae4-40a0-907d-bebad6401c31",
       "SourceSlotId": "2e1742d8-9ba3-4236-a0cd-a2b02c9f5924",
-      "TargetParentOrChildId": "74b88f07-b804-46af-aa82-2cd75d0484d4",
-      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
-    },
-    {
-      "SourceParentOrChildId": "3a3e31e4-9dcd-44d2-971d-8d4ab44b4d63",
-      "SourceSlotId": "e4a8d926-7abd-4d2a-82a1-b7d140cb457f",
       "TargetParentOrChildId": "74b88f07-b804-46af-aa82-2cd75d0484d4",
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
     },
@@ -1486,7 +1486,7 @@
         "PostCurve": "Constant",
         "Keys": [
           {
-            "Time": 150.0,
+            "Time": 148.0,
             "Value": 0.0,
             "InType": "Linear",
             "OutType": "Linear",
@@ -1496,7 +1496,7 @@
             "OutTangentAngle": 3.6052402625905993
           },
           {
-            "Time": 152.0,
+            "Time": 150.0,
             "Value": 1.0,
             "InType": "Spline",
             "OutType": "Spline",

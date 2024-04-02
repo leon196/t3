@@ -189,14 +189,14 @@
             "Type": "T3.Core.Animation.TimeClip",
             "TimeClip": {
               "TimeRange": {
-                "Start": 34.0,
+                "Start": 33.0,
                 "End": 40.0
               },
               "SourceRange": {
-                "Start": 34.0,
+                "Start": 33.0,
                 "End": 40.0
               },
-              "LayerIndex": 0
+              "LayerIndex": -2
             }
           }
         }
@@ -251,11 +251,11 @@
             "Type": "T3.Core.Animation.TimeClip",
             "TimeClip": {
               "TimeRange": {
-                "Start": 71.999985,
+                "Start": 71.5,
                 "End": 79.999985
               },
               "SourceRange": {
-                "Start": 71.999985,
+                "Start": 71.5,
                 "End": 79.999985
               },
               "LayerIndex": 0
@@ -313,14 +313,14 @@
             "Type": "T3.Core.Animation.TimeClip",
             "TimeClip": {
               "TimeRange": {
-                "Start": 64.0,
-                "End": 71.999985
+                "Start": 63.250015,
+                "End": 72.0
               },
               "SourceRange": {
-                "Start": 64.0,
-                "End": 71.999985
+                "Start": 63.250015,
+                "End": 72.0
               },
-              "LayerIndex": 0
+              "LayerIndex": -1
             }
           }
         }
@@ -376,11 +376,11 @@
             "TimeClip": {
               "TimeRange": {
                 "Start": 140.0,
-                "End": 158.0
+                "End": 154.0
               },
               "SourceRange": {
                 "Start": 140.0,
-                "End": 158.0
+                "End": 154.0
               },
               "LayerIndex": 0
             }
@@ -718,11 +718,11 @@
             "Type": "T3.Core.Animation.TimeClip",
             "TimeClip": {
               "TimeRange": {
-                "Start": 112.0,
+                "Start": 116.0,
                 "End": 120.0
               },
               "SourceRange": {
-                "Start": 112.0,
+                "Start": 116.0,
                 "End": 120.0
               },
               "LayerIndex": 0
@@ -779,6 +779,37 @@
       "SymbolId": "67888036-9f73-4c69-814c-3555c7699de9",
       "InputValues": [],
       "Outputs": []
+    },
+    {
+      "Id": "0ef20e0f-be79-4f8b-a6c6-2e822792d06f"/*Thoughts*/,
+      "SymbolId": "3036067a-a4c2-434b-b0e3-ac95c5c943f4",
+      "Name": "Thoughts",
+      "InputValues": [],
+      "Outputs": [
+        {
+          "Id": "de6ff8b5-40fe-47fa-b9f2-d926b17f9a7f"/*Thoughts*/,
+          "OutputData": {
+            "Type": "T3.Core.Animation.TimeClip",
+            "TimeClip": {
+              "TimeRange": {
+                "Start": 111.45408,
+                "End": 116.0
+              },
+              "SourceRange": {
+                "Start": 111.45408,
+                "End": 116.0
+              },
+              "LayerIndex": -1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "Id": "44ae6b8b-36f1-49a9-a713-4768eaecfa24"/*SceneThoughts*/,
+      "SymbolId": "b5faf772-bad1-4ca3-b0bd-230d7974667f",
+      "InputValues": [],
+      "Outputs": []
     }
   ],
   "Connections": [
@@ -787,6 +818,12 @@
       "SourceSlotId": "7a4c4feb-be2f-463e-96c6-cd9a6bad77a2",
       "TargetParentOrChildId": "00000000-0000-0000-0000-000000000000",
       "TargetSlotId": "70ac4a00-67ff-4d98-b347-feeccfb36677"
+    },
+    {
+      "SourceParentOrChildId": "44ae6b8b-36f1-49a9-a713-4768eaecfa24",
+      "SourceSlotId": "f01e2bef-e9d5-438a-9b95-12add7ae1a05",
+      "TargetParentOrChildId": "0ef20e0f-be79-4f8b-a6c6-2e822792d06f",
+      "TargetSlotId": "35f501f4-5c79-4628-9441-8b3782544bf6"
     },
     {
       "SourceParentOrChildId": "2cbe962c-8852-43aa-8ac8-bcdd4f466c0e",
@@ -801,13 +838,13 @@
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
     },
     {
-      "SourceParentOrChildId": "b7f304bd-4d89-4df8-be42-9d4f2331a5ed",
+      "SourceParentOrChildId": "d603ea82-2278-4555-8427-0b0fbdd9ce7f",
       "SourceSlotId": "de6ff8b5-40fe-47fa-b9f2-d926b17f9a7f",
       "TargetParentOrChildId": "148d0ff1-9818-4f55-ad23-4074acf7a358",
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
     },
     {
-      "SourceParentOrChildId": "d603ea82-2278-4555-8427-0b0fbdd9ce7f",
+      "SourceParentOrChildId": "b7f304bd-4d89-4df8-be42-9d4f2331a5ed",
       "SourceSlotId": "de6ff8b5-40fe-47fa-b9f2-d926b17f9a7f",
       "TargetParentOrChildId": "148d0ff1-9818-4f55-ad23-4074acf7a358",
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
@@ -856,6 +893,12 @@
     },
     {
       "SourceParentOrChildId": "d2eaf7c1-71c2-4d0f-ade0-826b6fde7fdf",
+      "SourceSlotId": "de6ff8b5-40fe-47fa-b9f2-d926b17f9a7f",
+      "TargetParentOrChildId": "55820daa-a363-4610-8bd5-9fe91e9fcd74",
+      "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
+    },
+    {
+      "SourceParentOrChildId": "0ef20e0f-be79-4f8b-a6c6-2e822792d06f",
       "SourceSlotId": "de6ff8b5-40fe-47fa-b9f2-d926b17f9a7f",
       "TargetParentOrChildId": "55820daa-a363-4610-8bd5-9fe91e9fcd74",
       "TargetSlotId": "5d73ebe6-9aa0-471a-ae6b-3f5bfd5a0f9c"
@@ -1270,36 +1313,6 @@
             "OutTangentAngle": 3.141592653589793
           },
           {
-            "Time": 33.9375,
-            "Value": 1.0,
-            "InType": "Spline",
-            "OutType": "Spline",
-            "InEditMode": "Linear",
-            "OutEditMode": "Linear",
-            "InTangentAngle": 0.0,
-            "OutTangentAngle": 1.6332151367908538
-          },
-          {
-            "Time": 34.0,
-            "Value": 0.0,
-            "InType": "Spline",
-            "OutType": "Spline",
-            "InEditMode": "Linear",
-            "OutEditMode": "Linear",
-            "InTangentAngle": -1.5083775167989395,
-            "OutTangentAngle": 3.9269908169872414
-          },
-          {
-            "Time": 35.0,
-            "Value": 1.0,
-            "InType": "Spline",
-            "OutType": "Spline",
-            "InEditMode": "Linear",
-            "OutEditMode": "Linear",
-            "InTangentAngle": 0.7853981633974483,
-            "OutTangentAngle": 3.141592653589793
-          },
-          {
             "Time": 55.75,
             "Value": 1.0,
             "InType": "Spline",
@@ -1347,37 +1360,37 @@
             "InEditMode": "Linear",
             "OutEditMode": "Linear",
             "InTangentAngle": -1.3258176636680323,
-            "OutTangentAngle": 4.4674103172578254
+            "OutTangentAngle": 3.9269908169872414
           },
           {
-            "Time": 104.25,
+            "Time": 105.0,
             "Value": 1.0,
             "InType": "Spline",
             "OutType": "Spline",
             "InEditMode": "Linear",
             "OutEditMode": "Linear",
-            "InTangentAngle": 1.3258176636680323,
+            "InTangentAngle": 0.7853981633974483,
             "OutTangentAngle": 3.141592653589793
           },
           {
-            "Time": 154.0,
+            "Time": 152.0,
             "Value": 1.0,
             "InType": "Spline",
             "OutType": "Spline",
             "InEditMode": "Linear",
             "OutEditMode": "Linear",
             "InTangentAngle": 0.0,
-            "OutTangentAngle": 2.896613990462929
+            "OutTangentAngle": 2.677945044588987
           },
           {
-            "Time": 158.0,
+            "Time": 154.0,
             "Value": 0.0,
             "InType": "Spline",
             "OutType": "Spline",
             "InEditMode": "Linear",
             "OutEditMode": "Linear",
-            "InTangentAngle": -0.24497866312686423,
-            "OutTangentAngle": -3.3865713167166573
+            "InTangentAngle": -0.46364760900080615,
+            "OutTangentAngle": -3.6052402625905993
           }
         ]
       }

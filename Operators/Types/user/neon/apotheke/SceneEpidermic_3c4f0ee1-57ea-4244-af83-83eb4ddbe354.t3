@@ -745,36 +745,6 @@
   ],
   "Animator": [
     {
-      "InstanceId": "2c05e964-ce88-49eb-bc8f-15cee22f163d",
-      "InputId": "c21371d6-1735-43d4-96ff-d04cbce0fec9",
-      "Curve": {
-        "PreCurve": "Constant",
-        "PostCurve": "Constant",
-        "Keys": [
-          {
-            "Time": 56.0,
-            "Value": 0.0,
-            "InType": "Linear",
-            "OutType": "Linear",
-            "InEditMode": "Linear",
-            "OutEditMode": "Linear",
-            "InTangentAngle": 0.19739555984988089,
-            "OutTangentAngle": 3.338988213439674
-          },
-          {
-            "Time": 61.0,
-            "Value": 1.0,
-            "InType": "Spline",
-            "OutType": "Spline",
-            "InEditMode": "Linear",
-            "OutEditMode": "Linear",
-            "InTangentAngle": 0.19739555984988066,
-            "OutTangentAngle": -2.9441970937399127
-          }
-        ]
-      }
-    },
-    {
       "InstanceId": "e5cc0521-762b-4783-b449-fc6a66cc0c06",
       "InputId": "5054a046-2e0d-4285-be6c-3c02901d39cd",
       "Curve": {
@@ -823,7 +793,7 @@
           },
           {
             "Time": 64.0,
-            "Value": 1.0,
+            "Value": 0.800000011920929,
             "InType": "Spline",
             "OutType": "Spline",
             "InEditMode": "Tangent",

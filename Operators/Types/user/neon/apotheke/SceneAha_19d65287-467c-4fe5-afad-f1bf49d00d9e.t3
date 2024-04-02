@@ -236,7 +236,7 @@
         {
           "Id": "7638501e-872d-4e4d-af7c-e4b3ff76748b"/*InputString*/,
           "Type": "System.String",
-          "Value": "I thought it was a splinter of wood..."
+          "Value": "It was not a splinter of wood..."
         },
         {
           "Id": "5054a046-2e0d-4285-be6c-3c02901d39cd"/*Factor*/,
@@ -712,7 +712,7 @@
         "PostCurve": "Constant",
         "Keys": [
           {
-            "Time": 115.0,
+            "Time": 116.9967,
             "Value": 0.0,
             "InType": "Spline",
             "OutType": "Spline",
@@ -722,7 +722,7 @@
             "OutTangentAngle": 3.925343536492503
           },
           {
-            "Time": 116.0033,
+            "Time": 118.0,
             "Value": 1.0,
             "InType": "Spline",
             "OutType": "Spline",
